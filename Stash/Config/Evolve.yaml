@@ -1,7 +1,7 @@
 # Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.07.10
+# Update Date: 2024.08.18
 
 # 通用设置
 mode: rule
@@ -9,7 +9,6 @@ log-level: info
 # DNS模块
 dns:
   default-nameserver:
-    - 114.114.115.115
     - 119.28.28.28
     - 223.6.6.6
     - system
@@ -87,7 +86,7 @@ proxy-providers:
   Subscribe:
     url: http://your-service-provider # 用你的订阅链接替换
     interval: 86400
-    benchmark-url: http://www.apple.com/library/test/success.html
+    benchmark-url: http://cp.cloudflare.com
     benchmark-timeout: 5
     # 功能分组
 proxy-groups:
@@ -101,109 +100,67 @@ proxy-groups:
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Rocket.png
     proxies:
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
-      - America
-      - Others
-  - name: Auto
-    type: url-test
-    icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Auto.png
-    include-all: true
-    tolerance: 50
-    interval: 300
-    lazy: true
-  - name: Fallback
-    type: fallback
-    icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Available.png
-    include-all: true
-    interval: 300
-    lazy: true
-  - name: Global
-    type: select
-    icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Global.png
-    proxies:
-      - Proxy
-      - Auto
-      - Fallback
-      - HongKong
-      - TaiWan
+      - Korea
       - Singapore
-      - Japan
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
       - DIRECT
-  - name: Mainland
-    type: select
-    icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/China_Map.png
-    proxies:
-      - DIRECT
-      - Proxy
-      - Auto
-  - name: AI
+  - name: AIGC
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
     proxies:
-      - America
-      - Japan
-      - Singapore
+      - Proxy
+      - HongKong
       - TaiWan
-      - Others
+      - Japan
+      - Korea
+      - Singapore
+      - America
+      - UnitedKingdom
+      - AllServer
   - name: YouTube
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/YouTube.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
   - name: NETFLIX
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Netflix.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
-      - America
-      - Others
-  - name: Disney+
-    type: select
-    icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Disney.png
-    proxies:
-      - Proxy
-      - Auto
-      - Fallback
-      - HongKong
-      - TaiWan
+      - Korea
       - Singapore
-      - Japan
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
   - name: Emby
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Emby.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
       - DIRECT
   - name: BiliBili
     type: select
@@ -217,14 +174,14 @@ proxy-groups:
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Spotify.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
       - DIRECT
   - name: NetEaseMusic
     type: select
@@ -236,80 +193,80 @@ proxy-groups:
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/TikTok.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
   - name: Streaming
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Streaming.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
   - name: Telegram
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Telegram_X.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
   - name: X
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/X.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
   - name: Apple
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Apple_1.png
     proxies:
       - DIRECT
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
   - name: Google
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
       - DIRECT
   - name: Microsoft
     type: select
@@ -317,82 +274,244 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
   - name: Games
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Game.png
     proxies:
       - Proxy
-      - Auto
-      - Fallback
       - HongKong
       - TaiWan
-      - Singapore
       - Japan
+      - Korea
+      - Singapore
       - America
-      - Others
+      - UnitedKingdom
+      - AllServer
       - DIRECT
   # 基于地区分组
   - name: HongKong
-    type: url-test
+    type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
-    include-all: true
-    filter: "港|🇭🇰|HK|(?i)Hong"
-    tolerance: 50
-    interval: 300
-    lazy: true
+    proxies:
+      - HK-Auto
+      - HK-FallBack
+      - HK-LoadBalance
   - name: TaiWan
-    type: url-test
+    type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/China.png
-    include-all: true
-    filter: "台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan"
-    tolerance: 50
-    interval: 300
-    lazy: true
-  - name: Singapore
-    type: url-test
-    icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Singapore.png
-    include-all: true
-    filter: "新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore"
-    tolerance: 50
-    interval: 300
-    lazy: true
+    proxies:
+      - TW-Auto
+      - TW-FallBack
+      - TW-LoadBalance
   - name: Japan
-    type: url-test
+    type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Japan.png
-    include-all: true
-    filter: "日|🇯🇵|东京|JP|(?i)Japan"
-    tolerance: 50
-    interval: 300
-    lazy: true
+    proxies:
+      - JP-Auto
+      - JP-FallBack
+      - JP-LoadBalance
+  - name: Korea
+    type: select
+    icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Korea.png
+    proxies:
+      - KR-Auto
+      - KR-FallBack
+      - KR-LoadBalance
+  - name: Singapore
+    type: select
+    icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+    proxies:
+      - SG-Auto
+      - SG-FallBack
+      - SG-LoadBalance
   - name: America
-    type: url-test
+    type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_States.png
-    include-all: true
-    filter: "美|🇺🇲|US|(?i)States|American"
-    tolerance: 50
-    interval: 300
-    lazy: true
-  - name: Others
+    proxies:
+      - US-Auto
+      - US-FallBack
+      - US-LoadBalance
+  - name: UnitedKingdom
+    type: select
+    icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
+    proxies:
+      - UK-Auto
+      - UK-FallBack
+      - UK-LoadBalance
+  - name: AllServer
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Airport.png
-    filter: ^((?!香港|HK|Hong Kong|台湾|TW|TaiWan|新加坡|SG|Singapore|狮城|日本|JP|Japan|美国|US|States|American)).*$
     include-all: true
+    filter: ^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|(\b(USE|USED|TOTAL|Traffic|Expire|EMAIL|Panel|Channel|Author)\b|(\d{4}-\d{2}-\d{2}|\d+G)))).*$
+  - name: HK-Auto
+    type: url-test
+    hidden: true
+    include-all: true
+    filter: 港|🇭🇰|HK|(?i)Hong
+    interval: 300
+    lazy: true
+  - name: TW-Auto
+    type: url-test
+    hidden: true
+    include-all: true
+    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    interval: 300
+    lazy: true
+  - name: JP-Auto
+    type: url-test
+    hidden: true
+    include-all: true
+    filter: 日|🇯🇵|东京|JP|(?i)Japan
+    interval: 300
+    lazy: true
+  - name: KR-Auto
+    type: url-test
+    hidden: true
+    include-all: true
+    filter: 韓|🇰🇷|韩国|KR|Korea
+    interval: 300
+    lazy: true
+  - name: SG-Auto
+    type: url-test
+    hidden: true
+    include-all: true
+    filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
+    interval: 300
+    lazy: true
+  - name: US-Auto
+    type: url-test
+    hidden: true
+    include-all: true
+    filter: 美|🇺🇲|US|(?i)States|American
+    interval: 300
+    lazy: true
+  - name: UK-Auto
+    type: url-test
+    hidden: true
+    include-all: true
+    filter: 英|🇬🇧|英国|UK|United Kingdom
+    interval: 300
+    lazy: true
+  - name: HK-FallBack
+    type: fallback
+    hidden: true
+    include-all: true
+    filter: 港|🇭🇰|HK|(?i)Hong
+    interval: 300
+    lazy: true
+  - name: TW-FallBack
+    type: fallback
+    hidden: true
+    include-all: true
+    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    interval: 300
+    lazy: true
+  - name: JP-FallBack
+    type: fallback
+    hidden: true
+    include-all: true
+    filter: 日|🇯🇵|东京|JP|(?i)Japan
+    interval: 300
+    lazy: true
+  - name: KR-FallBack
+    type: fallback
+    hidden: true
+    include-all: true
+    filter: 韓|🇰🇷|韩国|KR|Korea
+    interval: 300
+    lazy: true
+  - name: SG-FallBack
+    type: fallback
+    hidden: true
+    include-all: true
+    filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
+    interval: 300
+    lazy: true
+  - name: US-FallBack
+    type: fallback
+    hidden: true
+    include-all: true
+    filter: 美|🇺🇲|US|(?i)States|American
+    interval: 300
+    lazy: true
+  - name: UK-FallBack
+    type: fallback
+    hidden: true
+    include-all: true
+    filter: 英|🇬🇧|英国|UK|United Kingdom
+    interval: 300
+    lazy: true
+  - name: HK-LoadBalance
+    type: load-balance
+    hidden: true
+    include-all: true
+    filter: 港|🇭🇰|HK|(?i)Hong
+    strategy: consistent-hashing
+    interval: 300
+    lazy: true
+  - name: TW-LoadBalance
+    type: load-balance
+    hidden: true
+    include-all: true
+    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    strategy: consistent-hashing
+    interval: 300
+    lazy: true
+  - name: JP-LoadBalance
+    type: load-balance
+    hidden: true
+    include-all: true
+    filter: 日|🇯🇵|东京|JP|(?i)Japan
+    strategy: consistent-hashing
+    interval: 300
+    lazy: true
+  - name: KR-LoadBalance
+    type: load-balance
+    hidden: true
+    include-all: true
+    filter: 韓|🇰🇷|韩国|KR|Korea
+    strategy: consistent-hashing
+    interval: 300
+    lazy: true
+  - name: SG-LoadBalance
+    type: load-balance
+    hidden: true
+    include-all: true
+    filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
+    strategy: consistent-hashing
+    interval: 300
+    lazy: true
+  - name: US-LoadBalance
+    type: load-balance
+    hidden: true
+    include-all: true
+    filter: 美|🇺🇲|US|(?i)States|American
+    strategy: consistent-hashing
+    interval: 300
+    lazy: true
+  - name: UK-LoadBalance
+    type: load-balance
+    hidden: true
+    include-all: true
+    filter: 英|🇬🇧|英国|UK|United Kingdom
+    strategy: consistent-hashing
+    interval: 300
+    lazy: true
     # 规则引用
 rules:
   - DOMAIN,raw.gitmirror.com,Proxy
   - RULE-SET,private-domain,DIRECT
-  - RULE-SET,ai-classical,AI
+  - RULE-SET,ai-classical,AIGC
   - RULE-SET,youtube-domain,YouTube
   - RULE-SET,netflix-domain,NETFLIX
-  - RULE-SET,disney-domain,Disney+
   - RULE-SET,emby-classical,Emby
   - RULE-SET,bahamut-domain,TaiWan
   - RULE-SET,biliintl-domain,Streaming
@@ -402,14 +521,14 @@ rules:
   - RULE-SET,tiktok-domain,TikTok
   - RULE-SET,streamingmedia-classical,Streaming
   - RULE-SET,telegram-domain,Telegram
-  - RULE-SET,github-domain,Global
+  - RULE-SET,github-domain,Proxy
   - RULE-SET,twitter-domain,X
-  - RULE-SET,apple-classical,Global
+  - RULE-SET,apple-classical,Proxy
   - RULE-SET,apple-domain,Apple
   - RULE-SET,google-domain,Google
   - RULE-SET,microsoft-domain,Microsoft
   - RULE-SET,games-classical,Games
-  - RULE-SET,proxy-domain,Global
+  - RULE-SET,proxy-domain,Proxy
   - RULE-SET,google-ip,Google
   - RULE-SET,netflix-ip,NETFLIX
   - RULE-SET,telegram-ip,Telegram
@@ -420,7 +539,6 @@ rules:
   - RULE-SET,private-ip,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Final
-  # 远程规则集
 rule-providers:
   private-domain:
     behavior: domain
@@ -452,11 +570,6 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.list
-  disney-domain:
-    behavior: domain
-    format: text
-    interval: 86400
-    url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.list
   emby-classical:
     behavior: classical
     format: text
@@ -572,12 +685,3 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.list
-http:
-  mitm:
-    - g.cn
-    - '*.google.cn'
-    - '*.google.com.hk'
-  url-rewrite:
-    - ^http://g\.cn https://www.google.com transparent
-    - ^https?://www\.google\.cn https://www.google.com 302
-    - ^https?:\/\/(www.)?(google)\.com.hk https://www.google.com 302
