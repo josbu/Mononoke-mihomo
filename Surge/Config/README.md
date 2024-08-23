@@ -14,11 +14,11 @@
 </div>
 
 
-3. 返回 Surge 首页点击「**代理服务器**」进入，这里你会看到配置文件预设的策略组，点击「**Auto**」策略，往下拉，会看到「**外部代理列表**」，把下面的那行**此处填写订阅链接**的字删掉并填上你的订阅链接，返回 Surge 首页，在「**出站模式**」点选**规则模式**并启动 Surge ，至此，你可以愉快的冲浪啦！
+3. 返回 Surge 首页点击「**代理服务器**」进入，这里你会看到配置文件预设的策略组，点击「**AllServer**」策略，往下拉，会看到「**外部代理列表**」，把下面的那行**此处填写订阅链接**的字删掉并填上你的订阅链接，返回 Surge 首页，在「**出站模式**」点选**规则模式**并启动 Surge ，至此，你可以愉快的冲浪啦！
 
 <div align="center">
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/policy.PNG?raw=true width=60%  />
-<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/auto.PNG?raw=true width=60%  />
+<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/allserver.PNG?raw=true width=60%  />
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/sub.PNG?raw=true width=60%  />
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/rulestart.PNG?raw=true width=60%  />
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Surgescreenshot/done.PNG?raw=true width=50%  />
