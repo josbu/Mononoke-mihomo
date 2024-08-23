@@ -8,7 +8,6 @@
 1. 首先在仓库里获取配置文件 **raw** 链接，并将配置文件下载到本地。
 
 ![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/raw.png?raw=true)
-![](https://github.com/Coldvvater/Coldvvater/blob/9bbf32e648392ba21302e05f7528eeafe205f3af/img-folder/CFWscreenshot/addressbar.png?raw=true)
 
 2. 在 REV 左边列表上点「**订阅**」，点击右边「**新建**」，在弹出窗口选择类型「**Local**」再点击下方「**选择文件**」导入刚才下载的配置文件（其余选项如名称和描述等可随意修改）。
 
