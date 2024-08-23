@@ -30,12 +30,4 @@
 <img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Stashscreenshot/siheyi.PNG?raw=true  />
 </div>
 
-4. 当然，如果你习惯了手搓配置，你仍然可以点击「**编辑**」，通过文本编辑模式填上你的订阅链接。
-
-<div align="center">
-<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Stashscreenshot/wenbenbianji.PNG?raw=true width=60%  />
-<img src=https://github.com/Coldvvater/Coldvvater/blob/master/img-folder/Stashscreenshot/wenbentianru.jpg?raw=true width=60%  />
-</div>
-
-
 > PS：此配置使用说明只适合本仓库的配置文件使用，其他配置请以其使用操作为准。
