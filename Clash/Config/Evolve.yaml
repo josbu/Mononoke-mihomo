@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.08.20
+# Update Date: 2024.08.28
 
 port: 7890                           # HTTP(S) 代理服务器端口
 socks-port: 7891                     # SOCKS5 代理端口
@@ -181,13 +181,13 @@ proxy-groups:
  - {name: Games, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Game.png, <<: *Select}
 
 # 地区节点代理组
- - {name: HongKong, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png, type: select, proxies: [HK-Auto, HK-FallBack, HK-LoadBalance]}
- - {name: TaiWan, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/China.png, type: select, proxies: [TW-Auto, TW-FallBack, TW-LoadBalance]}
- - {name: Japan, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Japan.png, type: select, proxies: [JP-Auto, JP-FallBack, JP-LoadBalance]}
- - {name: Korea, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Korea.png, type: select, proxies: [KR-Auto, KR-FallBack, KR-LoadBalance]}
- - {name: Singapore, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Singapore.png, type: select, proxies: [SG-Auto, SG-FallBack, SG-LoadBalance]}
- - {name: America, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_States.png, type: select, proxies: [US-Auto, US-FallBack, US-LoadBalance]}
- - {name: UnitedKingdom, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png, type: select, proxies: [UK-Auto, UK-FallBack, UK-LoadBalance]}
+ - {name: HongKong, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png, type: select, proxies: [HK-Auto, HK-FallBack, HK-LoadBalance], include-all-providers: true, filter: *HK}
+ - {name: TaiWan, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/China.png, type: select, proxies: [TW-Auto, TW-FallBack, TW-LoadBalance], include-all-providers: true, filter: *TW}
+ - {name: Japan, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Japan.png, type: select, proxies: [JP-Auto, JP-FallBack, JP-LoadBalance], include-all-providers: true, filter: *JP}
+ - {name: Korea, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Korea.png, type: select, proxies: [KR-Auto, KR-FallBack, KR-LoadBalance], include-all-providers: true, filter: *KR}
+ - {name: Singapore, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Singapore.png, type: select, proxies: [SG-Auto, SG-FallBack, SG-LoadBalance], include-all-providers: true, filter: *SG}
+ - {name: America, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_States.png, type: select, proxies: [US-Auto, US-FallBack, US-LoadBalance], include-all-providers: true, filter: *US}
+ - {name: UnitedKingdom, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png, type: select, proxies: [UK-Auto, UK-FallBack, UK-LoadBalance], include-all-providers: true, filter: *UK}
 
 # 延时优选代理组
  - {name: HK-Auto, <<: *UrlTest, filter: *HK}
