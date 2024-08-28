@@ -300,59 +300,73 @@ proxy-groups:
   - name: HongKong
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
-    include-all: true
     proxies:
       - HK-Auto
       - HK-FallBack
       - HK-LoadBalance
+    filter: 港|🇭🇰|HK|(?i)Hong
+    use:
+      - Subscribe
   - name: TaiWan
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/China.png
-    include-all: true
     proxies:
       - TW-Auto
       - TW-FallBack
       - TW-LoadBalance
+    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    use:
+      - Subscribe
   - name: Japan
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Japan.png
-    include-all: true
     proxies:
       - JP-Auto
       - JP-FallBack
       - JP-LoadBalance
+    filter: 日|🇯🇵|东京|JP|(?i)Japan
+    use:
+      - Subscribe
   - name: Korea
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Korea.png
-    include-all: true
     proxies:
       - KR-Auto
       - KR-FallBack
       - KR-LoadBalance
+    filter: 韓|🇰🇷|韩国|KR|Korea
+    use:
+      - Subscribe
   - name: Singapore
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Singapore.png
-    include-all: true
     proxies:
       - SG-Auto
       - SG-FallBack
       - SG-LoadBalance
+    filter: 新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore
+    use:
+      - Subscribe
   - name: America
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_States.png
-    include-all: true
     proxies:
       - US-Auto
       - US-FallBack
       - US-LoadBalance
+    filter: 美|🇺🇲|US|(?i)States|American
+    use:
+      - Subscribe
   - name: UnitedKingdom
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
-    include-all: true
     proxies:
       - UK-Auto
       - UK-FallBack
       - UK-LoadBalance
+    filter: 英|🇬🇧|英国|UK|United Kingdom
+    use:
+      - Subscribe
   - name: AllServer
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Airport.png
