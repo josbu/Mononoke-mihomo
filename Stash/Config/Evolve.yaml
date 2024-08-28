@@ -1,7 +1,7 @@
 # Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.08.18
+# Update Date: 2024.08.28
 
 # 通用设置
 mode: rule
@@ -300,6 +300,7 @@ proxy-groups:
   - name: HongKong
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+    include-all: true
     proxies:
       - HK-Auto
       - HK-FallBack
@@ -307,6 +308,7 @@ proxy-groups:
   - name: TaiWan
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/China.png
+    include-all: true
     proxies:
       - TW-Auto
       - TW-FallBack
@@ -314,6 +316,7 @@ proxy-groups:
   - name: Japan
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Japan.png
+    include-all: true
     proxies:
       - JP-Auto
       - JP-FallBack
@@ -321,6 +324,7 @@ proxy-groups:
   - name: Korea
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Korea.png
+    include-all: true
     proxies:
       - KR-Auto
       - KR-FallBack
@@ -328,6 +332,7 @@ proxy-groups:
   - name: Singapore
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+    include-all: true
     proxies:
       - SG-Auto
       - SG-FallBack
@@ -335,6 +340,7 @@ proxy-groups:
   - name: America
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_States.png
+    include-all: true
     proxies:
       - US-Auto
       - US-FallBack
@@ -342,6 +348,7 @@ proxy-groups:
   - name: UnitedKingdom
     type: select
     icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png
+    include-all: true
     proxies:
       - UK-Auto
       - UK-FallBack
