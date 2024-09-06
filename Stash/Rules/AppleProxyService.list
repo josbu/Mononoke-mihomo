@@ -1,0 +1,31 @@
+# ---(Apple)---
+DOMAIN-SUFFIX,appsto.re
+#DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,beta.music.apple.com
+DOMAIN,books.itunes.apple.com
+DOMAIN,facetime.apple.com
+DOMAIN,lookup-api.apple.com
+DOMAIN,radio.itunes.apple.com
+
+# > TestFlight
+DOMAIN,beta.apple.com
+DOMAIN,testflight.apple.com
+DOMAIN-KEYWORD,testflight
+
+# > Web Preview
+DOMAIN,apps.apple.com
+DOMAIN,books.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN,tv.apple.com
+
+# > News
+DOMAIN,gateway.icloud.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-client-search.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,apple.comscoreresearch.com
+# ------
