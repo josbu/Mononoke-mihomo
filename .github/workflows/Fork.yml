@@ -1,4 +1,4 @@
-# 2024-09-06 22:55
+# 2024-09-07 19:25
 # author: https://github.com/Repcz
 name: Fork & Edit
 
@@ -106,6 +106,7 @@ jobs:
         curl -L -o Mononoke-repo/Surge/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
         curl -L -o Mononoke-repo/Surge/Rules/China.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list"
         curl -L -o Mononoke-repo/Surge/Rules/ChinaMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list"
+        curl -L -o Mononoke-repo/Surge/Rules/cn.list "https://raw.githubusercontent.com/Blankwonder/surge-list/master/cn.list"
         # 广告规则 
         curl -L -o Mononoke-repo/Surge/Rules/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
         curl -L -o Mononoke-repo/Surge/Rules/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
