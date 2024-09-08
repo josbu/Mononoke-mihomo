@@ -34,7 +34,7 @@ jobs:
 
     - name: Copy Surge/Rules
       run: |
-        mkdir -p Mononoke/{Surge}/Rules
+        mkdir -p Mononoke/{Clash,Stash,Surge}/Rules
         # 苹果
         curl -L -o Mononoke-repo/Surge/Rules/APNs.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
         curl -L -o Mononoke-repo/Surge/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
@@ -225,6 +225,389 @@ jobs:
           fi
         done
       shell: bash
+
+###### Clash
+
+    - name: Copy Clash/Rules
+      run: |
+        mkdir -p Mononoke/{Clash,Stash,Surge}/Rules
+        # 流媒体
+        cp -r Mononoke-repo/Surge/Rules/Emby.list Mononoke-repo/Clash/Rules/Emby.list
+        curl -L -o Mononoke-repo/Clash/Rules/BiliBiliIntl.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.list"
+        curl -L -o Mononoke-repo/Clash/Rules/TikTok.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/TikTok.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Netflix.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Mononoke-repo/Clash/Rules/HBO.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Disney.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Spotify.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Mononoke-repo/Clash/Rules/PrimeVideo.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Mononoke-repo/Clash/Rules/FitnessPlus.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Mononoke-repo/Clash/Rules/AppleMedia.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Bahamut.list "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Mononoke-repo/Clash/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        # 下载规则
+        curl -L -o Mononoke-repo/Clash/Rules/Download.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list"
+        # 苹果
+        curl -L -o Mononoke-repo/Clash/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        # OpenAI
+        curl -L -o Mononoke-repo/Clash/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list"
+        # Claude AI
+        curl -L -o Mononoke-repo/Clash/Rules/Claude.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # AIGC
+        curl -L -o Mononoke-repo/Clash/Rules/AI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list"
+        # 社交媒体
+        curl -L -o Mononoke-repo/Clash/Rules/Telegram.list "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Surge/Rules/Telegram.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Twitter.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Instagram.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Facebook.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Mononoke-repo/Clash/Rules/YouTube.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Google.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Mononoke-repo/Clash/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Mononoke-repo/Clash/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 甲骨文
+        curl -L -o Mononoke-repo/Clash/Rules/Oracle.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
+        # Cloudflare
+        curl -L -o Mononoke-repo/Clash/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Mononoke-repo/Clash/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Proxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Global.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+        # Trust
+        cp -r Mononoke-repo/Surge/Rules/Trust.list Mononoke-repo/Clash/Rules/Trust.list
+        # TronLink
+        cp -r Mononoke-repo/Surge/Rules/TronLink.list Mononoke-repo/Clash/Rules/TronLink.list
+        # Talkatone
+        cp -r Mononoke-repo/Surge/Rules/Talkatone.list Mononoke-repo/Clash/Rules/Talkatone.list
+        # PayPal
+        curl -L -o Mononoke-repo/Clash/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # 国内规则 
+        curl -L -o Mononoke-repo/Clash/Rules/NetEaseMusic.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Mononoke-repo/Clash/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Mononoke-repo/Clash/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
+        curl -L -o Mononoke-repo/Clash/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        curl -L -o Mononoke-repo/Clash/Rules/China.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
+        curl -L -o Mononoke-repo/Clash/Rules/ChinaMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
+        # 游戏规则 
+        curl -L -o Mononoke-repo/Clash/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        # 下载CDN
+        curl -L -o Mononoke-repo/Clash/Rules/DownloadCDN_Global.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/InternationalDownloadCDN.list"
+        curl -L -o Mononoke-repo/Clash/Rules/DownloadCDN_CN.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChinaDownloadCDN.list"
+        # 广告规则 
+        curl -L -o Mononoke-repo/Clash/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Anti-ad.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+        curl -L -o Mononoke-repo/Clash/Rules/AdGuardChinese.list "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Surge/Rules/AdGuardChinese.list"
+        # Lan
+        cp -r Mononoke-repo/Surge/Rules/Lan.list Mononoke-repo/Clash/Rules/Lan.list
+
+      # 适配规则
+    - name: Edit Clash/Rules
+      run: |
+        cd Mononoke-repo/Clash/Rules
+        for file in *.list; do
+          if [ "$file" != "ChinaIPv4.list" ] && [ "$file" != "ChinaIPv6.list" ] && [ "$file" != "Lan.list" ]; then
+            sed -i -e 's/, /,/g' \
+                   -e 's/;/# /g' \
+                   -e 's/host,/HOST,/g' \
+                   -e 's/host-/HOST-/g' \
+                   -e 's/-suffix/-SUFFIX/g' \
+                   -e 's/-keyword/-KEYWORD/g' \
+                   -e 's/ip-cidr/IP-CIDR/g' \
+                   -e 's/geoip/GEOIP/g' \
+                   -e 's/HOST,/DOMAIN,/g' \
+                   -e 's/HOST-/DOMAIN-/g' \
+                   -e 's/IP6-CIDR,/IP-CIDR6,/g' \
+                   -e 's/,REJECT$//g' \
+                   -e 's/,DIRECT$//g' \
+                   -e 's/,reject$//g' \
+                   -e 's/,direct$//g' \
+                   -e 's/,extended-matching$//g' \
+                   -e '/\(OR\|AND\|NOT\|USER-AGENT\|URL-REGEX\|IP-ASN\),/ s/^/#/' \
+                   -e '/# 内容：/d' \
+                   -e '/# 数量：/d' \
+                   -e '/# 更新：/d' \
+                   -e '/# NAME:/d' \
+                   -e '/# AUTHOR:/d' \
+                   -e '/# REPO:/d' \
+                   -e '/# UPDATED:/d' \
+                   -e '/404: Not Found/d' \
+                   "$file"
+            # 如果为IP规则且不包含no-resolve 则添加no-resolve
+            awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      #  Clash 规则转换 yaml 为 text
+      #    - name: Edit Clash/Rules yaml to text
+      #      run: |
+      #        cd Mononoke-repo/Clash/Rules
+      #        for file in Anti-ad.list ; do
+      #          if [ -f "$file" ]; then
+      #            # 删除payload
+      #            sed -i 's/payload://g' "$file"
+      #            # 删除 - 号和单引号
+      #            sed -i -e 's/#  - /# /g' -e 's/  # - /# /g' -e 's/  - //g' -e "s/'//g" "$file"
+      #          else
+      #            echo "$file not found."
+      #          fi
+      #        done
+
+      # 追加规则
+    - name: Copy custom rules
+      run: |
+        if [ -f "Tool-repo/Clash/Rules/Reject.list" ] ; then
+          cat Tool-repo/Clash/Rules/AdGuardChinese.list >> Tool-repo/Clash/Rules/Reject.list
+        else
+          echo "$file not found."
+        fi
+
+      # 去重排序
+    - name: Remove duplicates and lines 
+      run: |
+        cd Mononoke-repo/Clash/Rules
+        shopt -s nullglob  # 避免没有匹配的文件时保留原始通配符
+        for file in Reject.list; do
+          if [ -f "$file" ]; then
+            sorted_file="sorted_${file}"
+            # 使用 grep 去掉包含 # 的行
+            grep -v '^\s*#' "$file" | grep -v '^\s*$' | sort | uniq > "$sorted_file"
+            mv "$sorted_file" "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+      shell: bash   
+
+###### Stash
+
+    - name: Copy Stash/Rules 
+      run: |
+        mkdir -p Mononoke/{Clash,Stash,Surge}/Rules
+
+        curl -L -o Mononoke-repo/Stash/Rules/APNs.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Apple.yaml "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppStore.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppleID.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppleMusic.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+        curl -L -o Mononoke-repo/Stash/Rules/iCloud.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Mononoke-repo/Stash/Rules/TestFlight.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppleProxy.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+        cp -r Mononoke-repo/Surge/Rules/AppleProxyService.list Mononoke-repo/Stash/Rules/AppleProxyService.yaml
+        # OpenAI
+        curl -L -o Mononoke-repo/Stash/Rules/OpenAI.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list"
+        # Claude AI
+        curl -L -o Mononoke-repo/Stash/Rules/Claude.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # AIGC
+        curl -L -o Mononoke-repo/Stash/Rules/AI.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list"
+        # 社交媒体
+        curl -L -o Mononoke-repo/Stash/Rules/Telegram.yaml "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Surge/Rules/Telegram.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Twitter.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Instagram.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Facebook.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Mononoke-repo/Stash/Rules/YouTube.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Google.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Mononoke-repo/Stash/Rules/Github.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Mononoke-repo/Stash/Rules/OneDrive.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Microsoft.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 甲骨文
+        curl -L -o Mononoke-repo/Stash/Rules/Oracle.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
+        # 流媒体
+        curl -L -o Mononoke-repo/Stash/Rules/BiliBiliIntl.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.list"
+        curl -L -o Mononoke-repo/Stash/Rules/TikTok.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/TikTok.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Netflix.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Mononoke-repo/Stash/Rules/HBO.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Disney.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Spotify.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Mononoke-repo/Stash/Rules/PrimeVideo.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Mononoke-repo/Stash/Rules/FitnessPlus.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppleMedia.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Bahamut.yaml "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Mononoke-repo/Stash/Rules/ProxyMedia.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        cp -r Mononoke-repo/Surge/Rules/Emby.list Mononoke-repo/Stash/Rules/Emby.yaml
+        # 国内规则 
+        curl -L -o Mononoke-repo/Stash/Rules/NetEaseMusic.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Bilibili.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Mononoke-repo/Stash/Rules/WeChat.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Mononoke-repo/Stash/Rules/ChinaDomain.yaml "https://ruleset.skk.moe/List/non_ip/domestic.conf"
+        curl -L -o Mononoke-repo/Stash/Rules/ChinaASN.yaml "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        curl -L -o Mononoke-repo/Stash/Rules/China.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
+        curl -L -o Mononoke-repo/Stash/Rules/ChinaMax.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
+        # PayPal
+        curl -L -o Mononoke-repo/Stash/Rules/PayPal.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # Cloudflare
+        curl -L -o Mononoke-repo/Stash/Rules/Cloudflare.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Mononoke-repo/Stash/Rules/ProxyGFW.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Proxy.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Global.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+        # Trust
+        cp -r Mononoke-repo/Surge/Rules/Trust.list Mononoke-repo/Stash/Rules/Trust.yaml
+        # TronLink
+        cp -r Mononoke-repo/Surge/Rules/TronLink.list Mononoke-repo/Stash/Rules/TronLink.yaml
+        # Talkatone
+        cp -r Mononoke-repo/Surge/Rules/Talkatone.list Mononoke-repo/Stash/Rules/Talkatone.yaml
+        # 游戏规则 
+        curl -L -o Mononoke-repo/Stash/Rules/Game.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Steam.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Epic.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        # 广告规则 
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_EasyListChina.yaml "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_EasyListPrivacy.yaml "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_Dlerio.yaml "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_RuCu6.yaml "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AdGuardChinese.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/AdGuardChinese.list"
+        cp -r Mononoke-repo/Surge/Rules/Ads_SukkaW.list Mononoke-repo/Stash/Rules/Ads_SukkaW.yaml
+        cp -r Mononoke-repo/Surge/Rules/Reject.list Mononoke-repo/Stash/Rules/Reject.yaml
+        # fmz200
+        curl -L -o Mononoke-repo/Stash/Rules/Direct_fmz200.yaml "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_fmz200.yaml "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        # Lan
+        cp -r Mononoke-repo/Surge/Rules/Lan.list Mononoke-repo/Stash/Rules/Lan.yaml
+        curl -L -o Mononoke-repo/Stash/Rules/APNs.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+        curl -L -o Mononoke-repo/Stash/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Mononoke-repo/Stash/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+        cp -r Mononoke-repo/Surge/Rules/AppleProxyService.list Mononoke-repo/Stash/Rules/AppleProxyService.list
+        # OpenAI
+        curl -L -o Mononoke-repo/Stash/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list"
+        # Claude AI
+        curl -L -o Mononoke-repo/Stash/Rules/Claude.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # AIGC
+        curl -L -o Mononoke-repo/Stash/Rules/AI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list"
+        # 社交媒体
+        curl -L -o Mononoke-repo/Stash/Rules/Telegram.list "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Surge/Rules/Telegram.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Twitter.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Instagram.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Facebook.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Mononoke-repo/Stash/Rules/YouTube.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Google.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Mononoke-repo/Stash/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Mononoke-repo/Stash/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 甲骨文
+        curl -L -o Mononoke-repo/Stash/Rules/Oracle.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
+        # 流媒体
+        curl -L -o Mononoke-repo/Stash/Rules/BiliBiliIntl.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.list"
+        curl -L -o Mononoke-repo/Stash/Rules/TikTok.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/TikTok.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Netflix.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Mononoke-repo/Stash/Rules/HBO.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Disney.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Spotify.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Mononoke-repo/Stash/Rules/PrimeVideo.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Mononoke-repo/Stash/Rules/FitnessPlus.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AppleMedia.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Bahamut.list "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Mononoke-repo/Stash/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        cp -r Mononoke-repo/Surge/Rules/Emby.list Mononoke-repo/Stash/Rules/Emby.list
+        # 国内规则 
+        curl -L -o Mononoke-repo/Stash/Rules/NetEaseMusic.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Mononoke-repo/Stash/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Mononoke-repo/Stash/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
+        curl -L -o Mononoke-repo/Stash/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        curl -L -o Mononoke-repo/Stash/Rules/China.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
+        curl -L -o Mononoke-repo/Stash/Rules/ChinaMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
+        # PayPal
+        curl -L -o Mononoke-repo/Stash/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # Cloudflare
+        curl -L -o Mononoke-repo/Stash/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Mononoke-repo/Stash/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Proxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Global.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+        # Trust
+        cp -r Mononoke-repo/Surge/Rules/Trust.list Mononoke-repo/Stash/Rules/Trust.list
+        # TronLink
+        cp -r Mononoke-repo/Surge/Rules/TronLink.list Mononoke-repo/Stash/Rules/TronLink.list
+        # Talkatone
+        cp -r Mononoke-repo/Surge/Rules/Talkatone.list Mononoke-repo/Stash/Rules/Talkatone.list
+        # 游戏规则 
+        curl -L -o Mononoke-repo/Stash/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        # 广告规则 
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+        curl -L -o Mononoke-repo/Stash/Rules/AdGuardChinese.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/AdGuardChinese.list"
+        cp -r Mononoke-repo/Surge/Rules/Ads_SukkaW.list Mononoke-repo/Stash/Rules/Ads_SukkaW.list
+        cp -r Mononoke-repo/Surge/Rules/Reject.list Mononoke-repo/Stash/Rules/Reject.list
+        # fmz200
+        curl -L -o Mononoke-repo/Stash/Rules/Direct_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        # Lan
+        cp -r Mononoke-repo/Surge/Rules/Lan.list Mononoke-repo/Stash/Rules/Lan.list
+
+
+      # 适配 Stash 规则 yaml
+    - name: Edit Stash/Rules 
+      run: |
+        cd Mononoke-repo/Stash/Rules
+        for file in *.yaml *.list; do
+          if [ "$file" != "Lan.yaml" ] && [ "$file" != "Lan.list" ]; then
+            sed -i -e 's/, /,/g' \
+                   -e 's/;/# /g' \
+                   -e 's/host,/HOST,/g' \
+                   -e 's/host-/HOST-/g' \
+                   -e 's/-suffix/-SUFFIX/g' \
+                   -e 's/-keyword/-KEYWORD/g' \
+                   -e 's/ip-cidr/IP-CIDR/g' \
+                   -e 's/geoip/GEOIP/g' \
+                   -e 's/HOST,/DOMAIN,/g' \
+                   -e 's/HOST-/DOMAIN-/g' \
+                   -e 's/IP6-CIDR,/IP-CIDR6,/g' \
+                   -e 's/,extended-matching$//g' \
+                   -e 's/,REJECT$//g' \
+                   -e 's/,DIRECT$//g' \
+                   -e 's/,reject$//g' \
+                   -e 's/,direct$//g' \
+                   -e '/\(USER-AGENT\|URL-REGEX\|OR\|AND\|NOT\),/ s/^/#/' \
+                   -e 's| \{1,\}//.*$||' \
+                   -e '/# 更新：/d' \
+                   -e '/# AUTHOR:/d' \
+                   -e '/# REPO:/d' \
+                   -e '/# UPDATED:/d' \
+                   -e '/404: Not Found/d' \
+                   "$file"
+            # 如果为IP规则且不包含no-resolve 则添加no-resolve
+            awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+        for file in *.yaml; do
+          if [ -f "$file" ]; then
+            # 修改注释
+            sed -i 's/^#/  #/g' "$file"
+            # 在首行添加 "payload:"
+            sed -i '1s/^/payload:\n/' "$file"
+            # 在非注释或空行前添加“  - ”
+            awk '!/\/\/|#|payload:|^ *$/ {print "  - " $0; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
 
 ###### Commit
     - name: Add and Commits
