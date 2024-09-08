@@ -2,11 +2,11 @@ payload:
   # NAME: Global
   # DOMAIN: 83
   # DOMAIN-KEYWORD: 36
-  # DOMAIN-SUFFIX: 24990
+  # DOMAIN-SUFFIX: 24991
   # IP-CIDR: 112
   # IP-CIDR6: 4
   # PROCESS-NAME: 1
-  # TOTAL: 25226
+  # TOTAL: 25227
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
   - DOMAIN,anime-rule34-world.b-cdn.net
@@ -8333,6 +8333,7 @@ payload:
   - DOMAIN-SUFFIX,herringnetwork.com
   - DOMAIN-SUFFIX,hetzner.cloud
   - DOMAIN-SUFFIX,hetzner.com
+  - DOMAIN-SUFFIX,hetzner.company
   - DOMAIN-SUFFIX,hetzner.de
   - DOMAIN-SUFFIX,hex.pm
   - DOMAIN-SUFFIX,hexatronik.com
