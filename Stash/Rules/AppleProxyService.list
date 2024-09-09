@@ -1,11 +1,18 @@
-# ---(Apple)---
+# > Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re
+# > Spotlight
 #DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,amp-api.podcasts.apple.com
+# > Podcasts
+DOMAIN,amp-api.podcasts.apple.co
+# > Apple Music Web
 DOMAIN,beta.music.apple.com
+# > iBooks Store download
 DOMAIN,books.itunes.apple.com
+# > FaceTime Links
 DOMAIN,facetime.apple.com
+# > Look Up
 DOMAIN,lookup-api.apple.com
+# > Apple Music Radio
 DOMAIN,radio.itunes.apple.com
 
 # > TestFlight
@@ -28,4 +35,3 @@ DOMAIN,news-client-search.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
 DOMAIN,apple.comscoreresearch.com
-# ------
