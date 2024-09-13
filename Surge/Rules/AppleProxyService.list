@@ -3,7 +3,7 @@ DOMAIN-SUFFIX,appsto.re
 # > Spotlight
 #DOMAIN-SUFFIX,smoot.apple.com
 # > Podcasts
-DOMAIN,amp-api.podcasts.apple.co
+DOMAIN,amp-api.podcasts.apple.com
 # > Apple Music Web
 DOMAIN,beta.music.apple.com
 # > iBooks Store download
