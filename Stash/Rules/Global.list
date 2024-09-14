@@ -1,11 +1,11 @@
 # NAME: Global
 # DOMAIN: 83
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 24991
+# DOMAIN-SUFFIX: 24992
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 25227
+# TOTAL: 25228
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
 DOMAIN,anime-rule34-world.b-cdn.net
@@ -7479,6 +7479,7 @@ DOMAIN-SUFFIX,giantessbooru.com
 DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,giffgaff.design
 DOMAIN-SUFFIX,gifnuki.com
+DOMAIN-SUFFIX,gigabyte.com
 DOMAIN-SUFFIX,gigantits.com
 DOMAIN-SUFFIX,gigaporn.org
 DOMAIN-SUFFIX,gigaxvideos.com
