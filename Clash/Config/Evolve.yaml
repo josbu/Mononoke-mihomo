@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.08.28
+# Update Date: 2024.09.15
 
 port: 7890                           # HTTP(S) 代理服务器端口
 socks-port: 7891                     # SOCKS5 代理端口
@@ -189,6 +189,9 @@ proxy-groups:
  - {name: America, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_States.png, type: select, proxies: [US-Auto, US-FallBack, US-LoadBalance], include-all-providers: true, filter: *US}
  - {name: UnitedKingdom, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png, type: select, proxies: [UK-Auto, UK-FallBack, UK-LoadBalance], include-all-providers: true, filter: *UK}
 
+# 全部节点
+ - {name: AllServer, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, include-all-providers: true, filter: *All}
+
 # 延时优选代理组
  - {name: HK-Auto, <<: *UrlTest, filter: *HK}
  - {name: TW-Auto, <<: *UrlTest, filter: *TW}
@@ -216,9 +219,6 @@ proxy-groups:
  - {name: US-LoadBalance, <<: *LoadBalance, filter: *US}
  - {name: UK-LoadBalance, <<: *LoadBalance, filter: *UK}
 
-# 全部节点
- - {name: AllServer, icon: https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, include-all-providers: true, filter: *All}
-
 # 远程规则集
 rule-providers:
 
@@ -228,7 +228,7 @@ rule-providers:
  private-ip: {<<: *i, path: ./ruleset/private-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs}
 
 # AI平台
- ai-classical: {<<: *c, path: ./ruleset/openai-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/RuleSet/AI.list}
+ ai-classical: {<<: *c, path: ./ruleset/openai-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/AI.list}
 
 # YouTube
  youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs}
@@ -239,7 +239,7 @@ rule-providers:
  netflix-ip: {<<: *i, path: ./ruleset/netflix-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs}
 
 # Emby
- emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://raw.gitmirror.com/Repcz/Tool/X/Surge/Rules/Emby.list}
+ emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/Emby.list}
 
 # 动画疯
  bahamut-domain: {<<: *d, path: ./ruleset/bahamut-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs}
@@ -256,13 +256,13 @@ rule-providers:
  spotify-domain: {<<: *d, path: ./ruleset/spotify-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs}
 
 # 网易云音乐
- neteasemusic-classical: {<<: *c, path: ./ruleset/neteasemusic-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.list}
+ neteasemusic-classical: {<<: *c, path: ./ruleset/neteasemusic-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/NetEaseMusic.list}
 
 # TikTok
  tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs}
 
 # 国际流媒体
- streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list}
+ streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/ProxyMedia.list}
 
 # Telegram
  telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs}
@@ -278,7 +278,7 @@ rule-providers:
  twitter-ip: {<<: *i, path: ./ruleset/twitter-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.mrs}
 
 # 苹果代理服务
- apple-classical: {<<: *c, path: ./ruleset/apple-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/RuleSet/AppleProxyService.list}
+ apple-classical: {<<: *c, path: ./ruleset/apple-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/AppleProxyService.list}
 
 # 苹果服务
  apple-domain: {<<: *d, path: ./ruleset/apple-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs}
@@ -294,7 +294,7 @@ rule-providers:
  microsoft-domain: {<<: *d, path: ./ruleset/microsoft-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs}
 
 # 游戏平台
- games-classical: {<<: *c, path: ./ruleset/games-classical.list, url: https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list}
+ games-classical: {<<: *c, path: ./ruleset/games-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/Game.list}
 
 # 国内网站
  cn-domain: {<<: *d, path: ./ruleset/cn-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs}
