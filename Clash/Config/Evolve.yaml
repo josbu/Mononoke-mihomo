@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.09.15
+# Update Date: 2024.09.24
 
 port: 7890                           # HTTP(S) 代理服务器端口
 socks-port: 7891                     # SOCKS5 代理端口
@@ -223,88 +223,87 @@ proxy-groups:
 rule-providers:
 
 # 隐私网络/局域网
- private-domain: {<<: *d, path: ./ruleset/private-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs}
+ private-domain: {<<: *d, path: ./ruleset/private-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs}
  
- private-ip: {<<: *i, path: ./ruleset/private-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs}
+ private-ip: {<<: *i, path: ./ruleset/private-ip.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs}
 
 # AI平台
  ai-classical: {<<: *c, path: ./ruleset/openai-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/AI.list}
 
 # YouTube
- youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs}
+ youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs}
 
 # Netflix
- netflix-domain: {<<: *d, path: ./ruleset/netflix-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs}
+ netflix-domain: {<<: *d, path: ./ruleset/netflix-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs}
  
- netflix-ip: {<<: *i, path: ./ruleset/netflix-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs}
+ netflix-ip: {<<: *i, path: ./ruleset/netflix-ip.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs}
 
 # Emby
  emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/Emby.list}
 
 # 动画疯
- bahamut-domain: {<<: *d, path: ./ruleset/bahamut-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs}
+ bahamut-domain: {<<: *d, path: ./ruleset/bahamut-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs}
 
 # 哔哩哔哩东南亚
- biliintl-domain: {<<: *d, path: ./ruleset/biliintl-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.mrs}
+ biliintl-domain: {<<: *d, path: ./ruleset/biliintl-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.mrs}
 
 # 哔哩哔哩
- bilibili-domain: {<<: *d, path: ./ruleset/bilibili-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bilibili.mrs}
+ bilibili-domain: {<<: *d, path: ./ruleset/bilibili-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bilibili.mrs}
  
- bilibili-ip: {<<: *i, path: ./ruleset/bilibili-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/bilibili.mrs}
+ bilibili-ip: {<<: *i, path: ./ruleset/bilibili-ip.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/bilibili.mrs}
 
 # Spotify
- spotify-domain: {<<: *d, path: ./ruleset/spotify-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs}
+ spotify-domain: {<<: *d, path: ./ruleset/spotify-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs}
 
 # 网易云音乐
  neteasemusic-classical: {<<: *c, path: ./ruleset/neteasemusic-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/NetEaseMusic.list}
 
 # TikTok
- tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs}
+ tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs}
 
 # 国际流媒体
  streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/ProxyMedia.list}
 
 # Telegram
- telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs}
+ telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs}
 
- telegram-ip: {<<: *i, path: ./ruleset/telegram-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs}
+ telegram-ip: {<<: *i, path: ./ruleset/telegram-ip.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs}
 
 # GitHub
- github-domain: {<<: *d, path: ./ruleset/github-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs}
+ github-domain: {<<: *d, path: ./ruleset/github-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs}
 
 # Twitter
- twitter-domain: {<<: *d, path: ./ruleset/twitter-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.mrs}
+ twitter-domain: {<<: *d, path: ./ruleset/twitter-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.mrs}
  
- twitter-ip: {<<: *i, path: ./ruleset/twitter-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.mrs}
+ twitter-ip: {<<: *i, path: ./ruleset/twitter-ip.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.mrs}
 
 # 苹果代理服务
  apple-classical: {<<: *c, path: ./ruleset/apple-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/AppleProxyService.list}
 
 # 苹果服务
- apple-domain: {<<: *d, path: ./ruleset/apple-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs}
+ apple-domain: {<<: *d, path: ./ruleset/apple-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs}
  
- apple-ip: {<<: *i, path: ./ruleset/apple-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/apple.mrs}
+ apple-ip: {<<: *i, path: ./ruleset/apple-ip.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/apple.mrs}
 
 # 谷歌服务
- google-domain: {<<: *d, path: ./ruleset/google-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs}
+ google-domain: {<<: *d, path: ./ruleset/google-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs}
 
- google-ip: {<<: *i, path: ./ruleset/google-ip.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs}
+ google-ip: {<<: *i, path: ./ruleset/google-ip.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs}
 
 # 微软服务
- microsoft-domain: {<<: *d, path: ./ruleset/microsoft-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs}
+ microsoft-domain: {<<: *d, path: ./ruleset/microsoft-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs}
 
 # 游戏平台
  games-classical: {<<: *c, path: ./ruleset/games-classical.list, url: https://raw.gitmirror.com/Coldvvater/Mononoke/master/Clash/Rules/Game.list}
 
 # 国内网站
- cn-domain: {<<: *d, path: ./ruleset/cn-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs}
+ cn-domain: {<<: *d, path: ./ruleset/cn-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs}
 
 # 国外网站
- proxy-domain: {<<: *d, path: ./ruleset/proxy-domain.list, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs}
+ proxy-domain: {<<: *d, path: ./ruleset/proxy-domain.mrs, url: https://raw.gitmirror.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs}
 
 # 分流规则引用
 rules:
-#  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.metacubex.one,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
