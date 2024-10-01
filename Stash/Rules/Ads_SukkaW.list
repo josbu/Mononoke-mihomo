@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-10-01T11:36:41.863Z
-# Size: 115257
+# Last Updated: 2024-10-01T12:22:32.065Z
+# Size: 115271
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -4339,6 +4339,7 @@ DOMAIN,yads.c.yimg.jp
 DOMAIN-SUFFIX,abcd.yiq.com
 DOMAIN-SUFFIX,ym-a.cc
 DOMAIN-SUFFIX,eioqkb.yope.me
+DOMAIN-SUFFIX,you2.pl
 DOMAIN-SUFFIX,l.your.md
 DOMAIN-SUFFIX,yoyi.tv
 DOMAIN-SUFFIX,communications.ypo.org
@@ -5562,6 +5563,14 @@ DOMAIN-SUFFIX,adimages.eva.live
 DOMAIN-SUFFIX,marketing.evcp.com
 DOMAIN-SUFFIX,get.even.com
 DOMAIN-SUFFIX,get-staging.even.com
+DOMAIN-SUFFIX,ingress-bonde.ewp.live
+DOMAIN-SUFFIX,ingress-earth.ewp.live
+DOMAIN-SUFFIX,ingress-haven.ewp.live
+DOMAIN-SUFFIX,ingress-baronn.ewp.live
+DOMAIN-SUFFIX,ingress-erytho.ewp.live
+DOMAIN-SUFFIX,ingress-daribow.ewp.live
+DOMAIN-SUFFIX,ingress-florina.ewp.live
+DOMAIN-SUFFIX,ingress-comporellon.ewp.live
 DOMAIN-SUFFIX,tr.news.exclu.fr
 DOMAIN-SUFFIX,exnzg.de
 DOMAIN-SUFFIX,s.exv6.com
@@ -13806,6 +13815,7 @@ DOMAIN-SUFFIX,tl2go.com
 DOMAIN-SUFFIX,tl813.com
 DOMAIN-SUFFIX,hcbox.tlamka.cz
 DOMAIN-SUFFIX,tlbjw.com
+DOMAIN-SUFFIX,tlsens.pl
 DOMAIN-SUFFIX,page.health.tmcaz.com
 DOMAIN-SUFFIX,tracking.health.tmcaz.com
 DOMAIN-SUFFIX,tmko1.com
@@ -33843,6 +33853,7 @@ DOMAIN-SUFFIX,path.trypurc.com
 DOMAIN-SUFFIX,pd.trysera.com
 DOMAIN-SUFFIX,mhmzhc.trysnow.com
 DOMAIN-SUFFIX,trytada.com
+DOMAIN-SUFFIX,trytoku.com
 DOMAIN-SUFFIX,a8.tscubic.com
 DOMAIN-SUFFIX,st-a8.tscubic.com
 DOMAIN-SUFFIX,tracking.tsladies.de
@@ -35144,6 +35155,7 @@ DOMAIN-SUFFIX,yieldmo.com
 DOMAIN-SUFFIX,yijuxie.com
 DOMAIN-SUFFIX,yinhana.com
 DOMAIN-SUFFIX,yinmong.com
+DOMAIN-SUFFIX,yinzcam.com
 DOMAIN-SUFFIX,yitaopt.com
 DOMAIN-SUFFIX,yiucfif.icu
 DOMAIN-SUFFIX,yiwckti.icu
@@ -42112,6 +42124,7 @@ DOMAIN-SUFFIX,adebis-morijuku.morijuku.com
 DOMAIN-SUFFIX,link.mortyapp.com
 DOMAIN-SUFFIX,trk.mosa-lts.pro
 DOMAIN-SUFFIX,bgevqy.moschino.com
+DOMAIN-SUFFIX,moseasia.com
 DOMAIN-SUFFIX,mosrtaek.net
 DOMAIN-SUFFIX,lnk.mostdays.com
 DOMAIN-SUFFIX,mothifta.xyz
@@ -112122,6 +112135,7 @@ DOMAIN-SUFFIX,gleamcalumnygeneralize.com
 DOMAIN-SUFFIX,gloriarefreshsuspected.com
 DOMAIN-SUFFIX,goingtoothachemagician.com
 DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN-SUFFIX,goonline-bnpparibas-pl.xyz
 DOMAIN-SUFFIX,gorgestartermembership.com
 DOMAIN-SUFFIX,sstats.governmentcontractsusa.com
 DOMAIN-SUFFIX,gradecomposuresanctify.com
