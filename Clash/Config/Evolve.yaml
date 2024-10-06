@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.10.05
+# Update Date: 2024.10.06
 
 port: 7890                           # HTTP(S) 代理服务器端口
 socks-port: 7891                     # SOCKS5 代理端口
@@ -190,7 +190,7 @@ proxy-groups:
  - {name: UnitedKingdom, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_Kingdom.png, type: select, proxies: [UK-Auto, UK-FallBack, UK-LoadBalance], include-all-providers: true, filter: *UK}
 
 # 全部节点
- - {name: AllServer, icon: https://ghp.ci/https://raw.gitmirror.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, include-all-providers: true, filter: *All}
+ - {name: AllServer, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png, type: select, include-all-providers: true, filter: *All}
 
 # 延时优选代理组
  - {name: HK-Auto, <<: *UrlTest, filter: *HK}
@@ -308,7 +308,6 @@ rules:
   - DOMAIN,yacd.metacubex.one,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - DOMAIN,d.metacubex.one,DIRECT
-  - DOMAIN,raw.gitmirror.com,Proxy
 
   - RULE-SET,private-domain,DIRECT
   - RULE-SET,ai-classical,AIGC
