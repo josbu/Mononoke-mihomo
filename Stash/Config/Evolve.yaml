@@ -1,7 +1,7 @@
 # Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.10.05
+# Update Date: 2024.10.06
 
 # 通用设置
 mode: rule
@@ -528,7 +528,6 @@ proxy-groups:
     lazy: true
     # 规则引用
 rules:
-  - DOMAIN,raw.gitmirror.com,Proxy
   - RULE-SET,AI,AIGC
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
