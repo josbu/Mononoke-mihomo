@@ -1,8 +1,8 @@
 payload:
   #########################################
   # Sukka's Ruleset - Domestic Domains
-  # Last Updated: 2024-10-11T13:05:09.217Z
-  # Size: 765
+  # Last Updated: 2024-10-15T08:43:07.330Z
+  # Size: 766
   # License: AGPL 3.0
   # Homepage: https://ruleset.skk.moe
   # GitHub: https://github.com/SukkaW/Surge
@@ -712,6 +712,7 @@ payload:
   - DOMAIN-SUFFIX,autohome.com.cn
   - DOMAIN-SUFFIX,baidustatic.com
   - DOMAIN-SUFFIX,bilibilipay.com
+  - DOMAIN-SUFFIX,byteacctimg.com
   - DOMAIN-SUFFIX,chinamobile.com
   - DOMAIN-SUFFIX,cowtransfer.com
   - DOMAIN-SUFFIX,didichuxing.com
