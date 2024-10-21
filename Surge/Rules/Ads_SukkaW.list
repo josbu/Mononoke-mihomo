@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2024-10-20T17:02:38.793Z
-# Size: 111525
+# Last Updated: 2024-10-21T10:03:40.503Z
+# Size: 111541
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -20777,6 +20777,7 @@ DOMAIN-SUFFIX,facevideosc.com
 DOMAIN-SUFFIX,factquicker.com
 DOMAIN-SUFFIX,fadedprofit.com
 DOMAIN-SUFFIX,fadegranted.com
+DOMAIN-SUFFIX,fafmimgubcm.com
 DOMAIN-SUFFIX,fagovwnavab.com
 DOMAIN-SUFFIX,faintstates.com
 DOMAIN-SUFFIX,fairfeeling.com
@@ -31986,6 +31987,7 @@ DOMAIN-SUFFIX,148dfe140d0f3d5e.com
 DOMAIN-SUFFIX,1b969cef84d93b43.com
 DOMAIN-SUFFIX,4hfchest5kdnfnut.com
 DOMAIN-SUFFIX,6631f33cf2a1032b.com
+DOMAIN-SUFFIX,8dwd87c7a091b12x.com
 DOMAIN-SUFFIX,995db2642d3d852b.com
 DOMAIN-SUFFIX,aamsitecertifier.com
 DOMAIN-SUFFIX,absentlyrindbulk.com
@@ -39945,6 +39947,7 @@ DOMAIN-SUFFIX,n5n5s.icu
 DOMAIN-SUFFIX,ouplc.icu
 DOMAIN-SUFFIX,p45m0.icu
 DOMAIN-SUFFIX,q1gel.icu
+DOMAIN-SUFFIX,rbsr0.icu
 DOMAIN-SUFFIX,rk6h3.icu
 DOMAIN-SUFFIX,sd2ua.icu
 DOMAIN-SUFFIX,sltle.icu
@@ -39952,6 +39955,7 @@ DOMAIN-SUFFIX,smarf.icu
 DOMAIN-SUFFIX,sslir.icu
 DOMAIN-SUFFIX,stq89.icu
 DOMAIN-SUFFIX,sv2fo.icu
+DOMAIN-SUFFIX,tfzah.icu
 DOMAIN-SUFFIX,tgb1l.icu
 DOMAIN-SUFFIX,tjfbh.icu
 DOMAIN-SUFFIX,twj6s.icu
@@ -40172,6 +40176,7 @@ DOMAIN-SUFFIX,gipeucn.icu
 DOMAIN-SUFFIX,gkcogyf.icu
 DOMAIN-SUFFIX,gkeolwi.icu
 DOMAIN-SUFFIX,guwohvw.icu
+DOMAIN-SUFFIX,gwogrgq.icu
 DOMAIN-SUFFIX,hgcgnfe.icu
 DOMAIN-SUFFIX,hjammiz.icu
 DOMAIN-SUFFIX,hlegsdh.icu
@@ -40284,6 +40289,7 @@ DOMAIN-SUFFIX,umoxomv.icu
 DOMAIN-SUFFIX,uqcktxp.icu
 DOMAIN-SUFFIX,uskecsx.icu
 DOMAIN-SUFFIX,uvekyvs.icu
+DOMAIN-SUFFIX,uvwnkmf.icu
 DOMAIN-SUFFIX,uyyquln.icu
 DOMAIN-SUFFIX,vbiakpu.icu
 DOMAIN-SUFFIX,vdoqomz.icu
@@ -42918,6 +42924,7 @@ DOMAIN-SUFFIX,indirads.org
 DOMAIN-SUFFIX,iplogger.org
 DOMAIN-SUFFIX,ketchapp.org
 DOMAIN-SUFFIX,kingads2.org
+DOMAIN-SUFFIX,kingbaba.org
 DOMAIN-SUFFIX,kxtmstjs.org
 DOMAIN-SUFFIX,layer-ad.org
 DOMAIN-SUFFIX,linkeasy.org
@@ -43936,6 +43943,7 @@ DOMAIN-SUFFIX,bfjsliv.top
 DOMAIN-SUFFIX,bkiterv.top
 DOMAIN-SUFFIX,bnalzlv.top
 DOMAIN-SUFFIX,brtlisv.top
+DOMAIN-SUFFIX,buresdv.top
 DOMAIN-SUFFIX,bweriov.top
 DOMAIN-SUFFIX,byretuv.top
 DOMAIN-SUFFIX,byuwkbv.top
@@ -44045,6 +44053,7 @@ DOMAIN-SUFFIX,lkiterl.top
 DOMAIN-SUFFIX,lnalzll.top
 DOMAIN-SUFFIX,lrtlisl.top
 DOMAIN-SUFFIX,lsyliel.top
+DOMAIN-SUFFIX,luresdl.top
 DOMAIN-SUFFIX,lweriol.top
 DOMAIN-SUFFIX,lyislol.top
 DOMAIN-SUFFIX,lyretul.top
@@ -44502,6 +44511,7 @@ DOMAIN-SUFFIX,justestmurph.top
 DOMAIN-SUFFIX,kaulaijeepul.top
 DOMAIN-SUFFIX,kenkenlimted.top
 DOMAIN-SUFFIX,lalabaos1020.top
+DOMAIN-SUFFIX,lalabaos1021.top
 DOMAIN-SUFFIX,loppersixtes.top
 DOMAIN-SUFFIX,lordandogger.top
 DOMAIN-SUFFIX,methodslacca.top
@@ -45464,6 +45474,7 @@ DOMAIN-SUFFIX,esqzwq.xyz
 DOMAIN-SUFFIX,esyook.xyz
 DOMAIN-SUFFIX,evgaow.xyz
 DOMAIN-SUFFIX,evkzqs.xyz
+DOMAIN-SUFFIX,exqvak.xyz
 DOMAIN-SUFFIX,eyyngo.xyz
 DOMAIN-SUFFIX,ezacci.xyz
 DOMAIN-SUFFIX,ezeqcy.xyz
@@ -45528,6 +45539,7 @@ DOMAIN-SUFFIX,gmmlmo.xyz
 DOMAIN-SUFFIX,goteat.xyz
 DOMAIN-SUFFIX,gpiagk.xyz
 DOMAIN-SUFFIX,gpmzkg.xyz
+DOMAIN-SUFFIX,gpowow.xyz
 DOMAIN-SUFFIX,gpqkeq.xyz
 DOMAIN-SUFFIX,grthhr.xyz
 DOMAIN-SUFFIX,gsiawq.xyz
@@ -45631,6 +45643,7 @@ DOMAIN-SUFFIX,jhpbtp.xyz
 DOMAIN-SUFFIX,jinxpn.xyz
 DOMAIN-SUFFIX,jiqeni.xyz
 DOMAIN-SUFFIX,jivvjl.xyz
+DOMAIN-SUFFIX,jizxnr.xyz
 DOMAIN-SUFFIX,jkzbjv.xyz
 DOMAIN-SUFFIX,jqbddp.xyz
 DOMAIN-SUFFIX,jqtnft.xyz
@@ -45778,6 +45791,7 @@ DOMAIN-SUFFIX,mqwmgs.xyz
 DOMAIN-SUFFIX,mqwtgq.xyz
 DOMAIN-SUFFIX,mraozo.xyz
 DOMAIN-SUFFIX,mrthav.xyz
+DOMAIN-SUFFIX,msmcoa.xyz
 DOMAIN-SUFFIX,mtwmuy.xyz
 DOMAIN-SUFFIX,muycpg.xyz
 DOMAIN-SUFFIX,mvcngm.xyz
@@ -46082,6 +46096,7 @@ DOMAIN-SUFFIX,ukkkmg.xyz
 DOMAIN-SUFFIX,ulktyi.xyz
 DOMAIN-SUFFIX,uloscw.xyz
 DOMAIN-SUFFIX,ulwfys.xyz
+DOMAIN-SUFFIX,umwcyw.xyz
 DOMAIN-SUFFIX,uoosqk.xyz
 DOMAIN-SUFFIX,uqaagi.xyz
 DOMAIN-SUFFIX,uqueae.xyz
@@ -46764,6 +46779,7 @@ DOMAIN-SUFFIX,97496b9d.xyz
 DOMAIN-SUFFIX,98140548.xyz
 DOMAIN-SUFFIX,9814b49f.xyz
 DOMAIN-SUFFIX,98383163.xyz
+DOMAIN-SUFFIX,98738797.xyz
 DOMAIN-SUFFIX,98853171.xyz
 DOMAIN-SUFFIX,9bc639da.xyz
 DOMAIN-SUFFIX,9desires.xyz
