@@ -1,4 +1,4 @@
-# 2024-09-08 22:21
+# 2024-10-21 19:16
 # author: https://github.com/Repcz
 # alter: https://github.com/Coldvvater
 name: Fork & Edit
@@ -38,7 +38,7 @@ jobs:
         mkdir -p Mononoke/{Clash,Stash,Surge}/Rules
         # 苹果
         curl -L -o Mononoke-repo/Surge/Rules/APNs.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
-        curl -L -o Mononoke-repo/Surge/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Mononoke-repo/Surge/Rules/Apple.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         curl -L -o Mononoke-repo/Surge/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
         curl -L -o Mononoke-repo/Surge/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
         curl -L -o Mononoke-repo/Surge/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
@@ -248,7 +248,7 @@ jobs:
         # 下载规则
         curl -L -o Mononoke-repo/Clash/Rules/Download.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list"
         # 苹果
-        curl -L -o Mononoke-repo/Clash/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Mononoke-repo/Clash/Rules/Apple.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         cp -r Mononoke-repo/Surge/Rules/AppleProxyService.list Mononoke-repo/Clash/Rules/AppleProxyService.list
         # OpenAI
         curl -L -o Mononoke-repo/Clash/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/AI.list"
@@ -396,7 +396,7 @@ jobs:
         mkdir -p Mononoke/{Clash,Stash,Surge}/Rules
 
         curl -L -o Mononoke-repo/Stash/Rules/APNs.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
-        curl -L -o Mononoke-repo/Stash/Rules/Apple.yaml "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Apple.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppStore.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppleID.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppleMusic.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
@@ -477,7 +477,7 @@ jobs:
         # Lan
         cp -r Mononoke-repo/Surge/Rules/Lan.list Mononoke-repo/Stash/Rules/Lan.yaml
         curl -L -o Mononoke-repo/Stash/Rules/APNs.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
-        curl -L -o Mononoke-repo/Stash/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Mononoke-repo/Stash/Rules/Apple.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
