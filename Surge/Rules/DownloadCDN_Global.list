@@ -1,1 +1,215 @@
-<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html#  charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box# margin:0# padding:0}html{line-height:1.15# -webkit-text-size-adjust:100%# color:#313131# font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex# flex-direction:column# height:100vh# min-height:100vh}.main-content{margin:8rem auto# max-width:60rem# padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem# font-weight:500# line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem# line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml# base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+)# background-repeat:no-repeat# background-size:contain# padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222# color:#d9d9d9}}</style><meta http-equiv="refresh" content="390"></head><body class="no-js"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "gitlab.com",cType: 'managed',cNounce: '86607',cRay: '8d5e42dd0b580739',cHash: '2029c8195e9f164',cH: 'J82w0Kbg0DDXkN7iyLlzUSeszHg460eCyThrX4stLYc-1729482393-1.1.1.1-P10APksVXSCvdg74pvFBSCL0NH.mG9xtAq5B3ODU4pU973EwAPrUjCssTMXlH3Kx',cUPMDTk: "\/users\/sign_in?__cf_chl_tk=nGRKJBiAFSxTNYH8WQZA867GeiS5MAZUYfFzl51Wrqc-1729482393-1.0.1.1-r.OaPda3Aws41h4io2M4Nkhq0wWGwH9NLNqRIVM0JOM",cFPWv: 'b',cITimeS: '1729482393',cTTimeMs: '1000',cMTimeMs: '390000',cTplV: 5,cTplB: 'cf',cK: "",fa: "\/users\/sign_in?__cf_chl_f_tk=nGRKJBiAFSxTNYH8WQZA867GeiS5MAZUYfFzl51Wrqc-1729482393-1.0.1.1-r.OaPda3Aws41h4io2M4Nkhq0wWGwH9NLNqRIVM0JOM",md: "DH.KpqvaHBnSwb1GpN4GlURutuTdviqNmWPgcPl8gco-1729482393-1.1.1.1-_Pel36x4.lm_prF1KWjvM9Cwcz1UOCFKzMqsvXWqC1PxboV3Satn92xC.4ooWnx.vV8d2ncI9iMDHaUZryql6Me8twxooU23wC4poCmhsQk37Ixt3yJYBMlDvGtjh8HUjCRxzxNXAT91zRfqKHfk1NmcKdTxRxLjnsyYCar97FaHl9EyfwgRp16ooKoYSPlR1QR6yNCSJvKnEMpuIECdTD.rAyA5qfxfRnUzoHxB_VDCw7nJ9SNaNOiYOm3EXz3Ppsw4UeNFAogLeFfND8Luz6tF0tVjX3AgMsnACRNPj_sjJikQ10EsZo7MxkqUVqY2m5_kek630KMZciF6BH5UECqWPojl4YHvYBsYjVsAZ4io4yLNSvb6v4FnjnxYnND38zqXsGnVcF6t3Ml3qgt1rKPQIAc9A5mPSIFzwABappA8qX9W6mJ62TtKo0qhtUcDqmfhDf1ryuhvkx6.s_y.OeTtPPO82pX.RN1r.zMikU8HtQ3rXIaqgWaGTcp4VJRpmVwc5ngZnUyjY89bVi45PtpSgX7d_4xAPScfZXg7Bxeon52h..BvYGyPgwyFRXSYCpB8W1pahUOnUmaU5ykTbypkuSoBm3juyy8KYUkXJR87PYXRTrgp9cgS3pG.GMkdLY3vYuyXuilmkpD0N8qktQXDe3Gz8n1I2Ba9n7vU_YXW9lOjH8gknehYVWdKJTaeR0IzOXXgXyUdD_S3YubEsWfZb36FgqluleU0u5doM7rXxabeCMp7Uwl2m0MzzzuD87P2egHDShe4Io9ytdPqxuf78nGreANzTeY9yLx6zE4zPusgWJLep6jfaafN5W6ak6sPSTbGrQDC7i6pnRl_WiglNdc39tkXlFYSF7VFXTZ3xF4Q5fVaxWLYgf6tN9cBwnVAx8rSW15zPrwcRA8pgAlprKEuDL_zcUvuSJ7x3vUIkxUi0I0SRK_FfWq4iz2SQkWdkHKidBiRFNNMpPhA6ZWQbA2AZ5Wlfg9e9iEja4uZmYw6er.IkVRR0I.jYtLbw3aUSd65nDbcVs2VP5JwT73c5o7faozExAih9rhc4gYtRTtFSL7EAuEY5B8RpVzn_Oqxqd48a6hBkCIXCv9e9VDka3mnp9fw3iXlpF5AtcYwNklr80utGBfvIbs3LDjEo14lBKi8jFGuW31EOaQzYFfwCt1f5cvRhNQV9ozHX8.NOQkfbvnqJmFfUksyT1QkY8cM9517HxA5AjhFtIxngKCsPcnBJxYSLdH.yeySpNP57cwt9lBnzXZhrdsXInnQPYgVGCFUZTE5UL6T._mxTsrQcK7cdNKI3vn8oykpimeN1wAQXupFu9NZHx_3xSb_TxMpgvljOQRYVNBOyIgYFFJRbgxKY9pcIkMlqSCXGsm8J_wP41hKOp_BxckDnqMVHtAovM4ZvmMOJ5EZEmM1dUDcsDG2K8BrMYi3hkxADitvG8KwNyTTIRma9heL2n0rzmD1pWfV8zPX81hPPceN05zUex25uRJu3Wcw1_Fkbk0vDMF_jpuNuerOKxVVVkGZkwQxStY1cDvhAFfaQk24JwDm95eqB2QckaFWQ9XlUNN80HdvmgrpJR51ro1qkOGvBqHUzsmc3byEBLjmjPbjflNHe2taZYjZrzpnZ7S6ne5m.KuarUEvaPnBUUphCFDNFP5RtZ.n4T4Pa9t2GcdWb3chKj93NXYKIH_SNBc3rVJYqaki4uxZ06fQ3tO_MoHtclxTD_bzZgX7LMuMrd8t7QKazIO3Nh0NL4ZuqM0XtNiDI_q.c4onhr3gGva9uHBFW8TJrwAxW0nE81TFyatere77huRRXiywL_5QnkoZJqQs1U9mt9pHJqmWC1AJLO0riaDt4.W3LCpwFP0_rEg3.uslhFtQrtCHUqPekrfyizSGdgGJs4.gTqdWjzhH92Ny3smKOkrydY4ML36GaVD8d9MdRfM2DRkv.Smv7BSLLM8RAHTOnUkaMby6SQlN2HOfJTRIgNNoGw0a6NiSuhC2GE3ZsNm0EJsRNB25Db4CvngTMTbuq0xr8ts95qM.JfHMGLdhL0YvvIZ41Mz5WBu33geKRZJkQXlibtKPhKXJKLmlvsL_iEoNzgcnZg2QiRqY4KY77tnNIHnJWWeod6aNyd1o6NtuQTsp3njpaL3C64oEXkpGmARqV4uVx.M3i7nIirB1iaFj5UDUeVRy1r9P9ktDJnSHf8J1ISXcpWFgp4SemOIBsJ1IaTxbjdhPQ9PRC7o_d91QkKsy2QXFe2fgnn6hYpSIQ.UKObz8TLudTCE",mdrd: "smRJROkzK2k_elVRMlyphrTZ3YS07LY3ZqplamsYq9g-1729482393-1.1.1.1-bAOHHx0bI1EudhMBCqrmBVlkW17m5x4PJ6fD7jVarMqPRZuZw3hHK0P8GceROMlLtWpnrZY8QKJK7hIveiGnfTP75e16GPYR1g1dTjy4zzfxeSxaDLKNEpWPFamiynccKHuRlFf716hy0nOYBYc2ZF8Hexc9WT3w4uiT9CepUAl.4GekkFfBjivm90R_VwNAVOJJj.pw79DoFPNvhiAyJzgAaiWwKe7Unxxhlj.jUSOkjzP6baPgvAVJkiun6mjR_DdDyquKsY1S5TH0bJUFVKaLSyhOpMAuwkVsx_sl4jXLrpp2U5JTdkpIk.HpyH3zd6XlfO7eow4TQtUtq1v4gyMyGb0DDJh1CLMuAkSz5BkBLXMjC.Gvb0_J7TyEqobwvBKMT2EPdxJhqrZFqVFgOnaNW.PSrio_tBm.QWwwWGFxDJXNyCRzruexQMQiuB3UGTOlDjDIFDmG5.aEiPekuqZzwIK15iAJtDhdnxn71dlZhnTWvd0VAwGvUSt.EhQP4dULTYQEw8bl_FxlQbtFPf2.hxKXt284rtwwPR0DyHMSGE2rxMBisI9Umm3bSf9Y2j4M2lce9f.XFY6wW.lfaUHAbK91EFqnkCWtatAnKR4owMGGU6i9mvgW3lPeQx27T4f6VSzTi2l60h4DAlbKvYGdMJuIF7kBUVBeHTsbrgZlbw3.NmOeW6_df4dccHYL36KDKoZuUkQ5xtYXfwy7F3xEvevjKtF3BKhbCOz6KsaIdq0ek54d5L5ciDLkrtM.dRdDFG32v6R1mVaGpXrw_XX5zxSkyi2C.qjbZWooXCDofPfOStRudCX2cYmv.KvhKh4xLO6tNbykKmpnooJknDR9itp_1u8C_oFNs9dbvkhY70Rn_Y45LABbR_tb75FavEj6MWMRp.3rEMpophZx5icWiHUEjwqESzATmL3mhW3t0yFdDxqwiAS0gT.iYJFDeiNBRaLvJRFyz9tVnD7FsgVpyIJJsNZmeEjilmnBVzy5ZaEUfKoRooQ2__x71g1SvaiAU322CnOMfN34nyb9MFnemiyoEdkTS5J6XnE9JMUUUV1SSm6wSZjSB9hAIYjmgauO7AHIXHYcSAmDmR0NC9968RmLY29E_8zQ14iu3A35wiefd5.GswScj1jVyYwL7LQrgmz5uvVKKtJPUak81KFphX38EdEy2nCh65lbZjhN7R.BUezGJqmqWvCnoAy51wrq4hWWr_fQD4KbvaUeCxera8G_zO_RwdlsPYHpix7MFZn0okKQgIuUupTxGLFmAmrp7eq7J9lzLH.96Jsdj5RFOv1VEfOiQlovwErpPcSK5OmawrnhMO7H3m9Hd0gcnYVXjM.XY3lJAOsX994UaGgr3DWoFxeXHiUfptD2pLBHXakkapI22O0gM8S9_5Pn0o4PYfsSA4ajKBqfHHK4mBryc3rGay83EHiGqu8Ej9T6B.ZSpmekFu6Mt2_GphaQMgOEFmf7OfqHhaiWbcMWdGPE05dU.lBm35d65u8fT6AP.1Ize7VoIL2Mulri1NQUaPfC6RIhCk6MxOTY65pJiP5IgHQuM1OTLaB0r0aukE2Ow2qtGbBVaa8XeHQ2EC_xrFZ_sG4BwgxFXGFlLdSr2GxLO4tX9A4qKUCUjvqb374BMBpd8D.TsGwN67L8Hkh6nE2uPogx3kX95yGlaO_5scQtvWJXG8fgVQDtr.SAs8jHIsuvnHzG33SwJlShz.R4HzGWsS6qBdLM_PUWk_aHFJzT2FSdwoZf9f6IIbOhubayoB8OoSTaeZBTveR5ErBT7fbBod.lrKE09sFUXXTZfzICwzjyI74P0hlIQqtqXqcf8kVhSlAcnL7NGESXzctphQkaHyKku.XIyVm87mi_SoFkSkJ9IHxTKVUJ.pcP4pRHgpE4CKBISPZ.IlTBLmh3m6e_tFtnuQ.ijwS1pjyxA6GKvNqTzOyd5SG79J8409Y",cRq: {ru: 'aHR0cHM6Ly9naXRsYWIuY29t',ra: 'Y3VybC83LjgxLjA=',d: 'yb0No3jR3JKL4vvasqNbUz+ioSqvDA0KvOKHbogX2lXWTLr/cjmNA7IMnyFb3oAuv8dh3HK4PNP1yEOKm84+n9DtpOzjQiqTBY7VauoO7EsDksWxyNeF8CyTkT8ayBPB8Tx0WA1smvDqfGnBmdPqr/RGMraVvJ7oQXXtLRkeNIEkogU+4JEJSLwhBFHO9NZv4NMqMQ/WGLoWqOe//kxOKORMeiJ6AkubCthA+jj40ZYeOlQHXoZOjUch2mU/zdr2eUW2rturFMblF4pz+3Pl4V1k725OWC1DK+jPjsVGGkte/y6ApyKBTaDOKNpXZbPA1m3/b7p61kUV6ZvL7o2igQFdmgv4ZRShNr3PWz3+Qlcl+2Xq3NfIpPW5RhLDSom9OTcta/5qaMqCKt9X8b4zSKEMCDmhFPAc6d4kjOQuZk53n8C61sfB4v7ah36lH/wo37vHig+3i1IY+honBygtYrIPO8uc6R2iJw45O7f3EgHbf3njr5wrnpTDkJ/PV93SBSZuMCM916To9W8EygNhDlM0+nCxFc4GMYkrO2AMU+Xfunsj/cIXSXgMsqJOxkr/6pGdGpoEXhLMgGlmMqFsdA==',t: 'MTcyOTQ4MjM5My4wMDAwMDA=',cT: Math.floor(Date.now() / 1000),m: 'Pdd6zMool5d+2XUAeIQedvgHPnhhvPGtXM39uxg6DOE=',i1: 'MIKxqMZ6AnCoglvdQ7EUdA==',i2: 'KDhwhS2tdjzDbLNd8usqYQ==',zh: 'UnJDyo9FrWqFHAM0dnr3Qrw4Ll86sU7CDCiveOM3u04=',uh: 'XtPohTwN9ruoNwJrCbocmA5soW1XPnkxU/yVFmBLOQo=',hh: 'lGQbzypQ55vDVgAzrKu7GNtEf1PrcZK3oqezycJ79vw=',}}# var cpo = document.createElement('script')# cpo.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=8d5e42dd0b580739'# window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash# window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0,location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search# if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash# history.replaceState(null,null,"\/users\/sign_in?__cf_chl_rt_tk=nGRKJBiAFSxTNYH8WQZA867GeiS5MAZUYfFzl51Wrqc-1729482393-1.0.1.1-r.OaPda3Aws41h4io2M4Nkhq0wWGwH9NLNqRIVM0JOM" + window._cf_chl_opt.cOgUHash)# cpo.onload = function() {history.replaceState(null,null,ogU)# }}document.getElementsByTagName('head')[0].appendChild(cpo)# }())# </script></body></html>
+# Author: 可莉🅥
+# GitLab: https://gitlab.com/lodepuly/vpn_tool/-/tree/master/tool/Loon
+# 引用: https://github.com/dogfight360/UsbEAm
+# 2024-05-07 00:02:23
+
+# EPIC游戏下载、更新[国际]
+DOMAIN,download.epicgames.com
+DOMAIN,download2.epicgames.com
+DOMAIN,download3.epicgames.com
+DOMAIN,download4.epicgames.com
+DOMAIN,epicgames-download1.akamaized.net
+DOMAIN,fastly-download.epicgames.com
+DOMAIN,ipv4.egdownload.fastly-edge.com
+DOMAIN-KEYWORD,epicgames-download
+AND,((DOMAIN-KEYWORD,cdn),(DOMAIN-KEYWORD,-epicgames-))
+
+# Battle.net战网游戏下载、更新[国际]
+DOMAIN,blzddist1-a.akamaihd.net
+DOMAIN,blzddistkr1-a.akamaihd.net
+DOMAIN,blizzard.gcdn.cloudn.co.kr
+DOMAIN,eu.cdn.blizzard.com
+DOMAIN,kr.cdn.blizzard.com
+DOMAIN,level3.blizzard.com
+DOMAIN,us.cdn.blizzard.com
+
+# GOG游戏下载、更新[国际]
+DOMAIN,gog-cdn-fastly-cp77.gog.com
+DOMAIN,gog-cdn-fastly.gog.com
+DOMAIN,gog-cdn-lumen.secure2.footprint.net
+
+# 微软游戏下载、更新[国际]
+DOMAIN,assets1.xboxlive.com
+DOMAIN,assets2.xboxlive.com
+DOMAIN,ak.tiles.virtualearth.net
+DOMAIN,pf-cdn-content-prod.azureedge.net
+DOMAIN,xvcf1.xboxlive.com
+DOMAIN,xvcf2.xboxlive.com
+
+# 微软全家桶上传、下载、同步、在线安装[国际]
+DOMAIN,azurestackhubuat.download.prss.microsoft.com
+DOMAIN,azurestackreleases.download.prss.microsoft.com
+DOMAIN,azuremigratetest.download.prss.microsoft.com
+DOMAIN,azuremigrate.download.prss.microsoft.com
+DOMAIN,afdshield-or.download.prss.microsoft.com
+DOMAIN,azurestackhub.download.prss.microsoft.com
+DOMAIN,contentsync.onenote.com
+DOMAIN,collaborateppe.download.prss.microsoft.com
+DOMAIN,cbdstest.download.prss.microsoft.com
+DOMAIN,collaborate.download.prss.microsoft.com
+DOMAIN,d.docs.live.net
+DOMAIN,dreamspark.download.prss.microsoft.com
+DOMAIN,db.download.prss.microsoft.com
+DOMAIN,dreamsparkuat.download.prss.microsoft.com
+DOMAIN,hierarchyapi.onenote.com
+DOMAIN,itacademy.download.prss.microsoft.com
+DOMAIN,itacademyuat.download.prss.microsoft.com
+DOMAIN,lex.download.prss.microsoft.com
+DOMAIN,lexuat.download.prss.microsoft.com
+DOMAIN,msproductuat.download.prss.microsoft.com
+DOMAIN,msconnect.download.prss.microsoft.com
+DOMAIN,mbsuat.download.prss.microsoft.com
+DOMAIN,myvsuat.download.prss.microsoft.com
+DOMAIN,msdprod-ad.download.prss.microsoft.com
+DOMAIN,mpnbenefitsrtl.download.prss.microsoft.com
+DOMAIN,msdn.download.prss.microsoft.com
+DOMAIN,myvs.download.prss.microsoft.com
+DOMAIN,mpnbenefitsrtluat.download.prss.microsoft.com
+DOMAIN,msproduct.download.prss.microsoft.com
+DOMAIN,mbs.download.prss.microsoft.com
+DOMAIN,mpnbenefits.download.prss.microsoft.com
+DOMAIN,officecdn.microsoft.com
+DOMAIN,oemsocuat.download.prss.microsoft.com
+DOMAIN,officemkt.download.prss.microsoft.com
+DOMAIN,oemsoc.download.prss.microsoft.com
+DOMAIN,osrelease.download.prss.microsoft.com
+DOMAIN,officemktuat.download.prss.microsoft.com
+DOMAIN,public.bn.files.1drv.com
+DOMAIN,rsm.download.prss.microsoft.com
+DOMAIN,rsmuat.download.prss.microsoft.com
+DOMAIN,storecorefulfillment.download.prss.microsoft.com
+DOMAIN,surface.download.prss.microsoft.com
+DOMAIN,software-static.download.prss.microsoft.com
+DOMAIN,software.download.prss.microsoft.com
+DOMAIN,vlportal.download.prss.microsoft.com
+DOMAIN,volic.download.prss.microsoft.com
+DOMAIN,visualstudio.download.prss.microsoft.com
+DOMAIN,windbg.download.prss.microsoft.com
+DOMAIN-SUFFIX,storage.live.com
+
+# UBisoft Connect(Uplay)育碧游戏下载、更新[国际]
+DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+DOMAIN,uplaypc-s-ubisoft-ww.cdn.ubi.com
+
+# Origin艺电游戏平台[国际]
+DOMAIN,download.dm.origin.com
+DOMAIN,origin-a.akamaihd.net
+DOMAIN,ssl-lvlt.cdn.ea.com
+
+# EA Desktop游戏下载[国际]
+DOMAIN,origin-a.akamaihd.net
+DOMAIN,ssl-lvlt.cdn.ea.com
+
+# Steam游戏下载、游戏更新、创意工坊下载、Steam.TV直播、社区实况直播[国际]
+AND,((DOMAIN-KEYWORD,cache),(DOMAIN-SUFFIX,steamcontent.com))
+DOMAIN,avatars.akamai.steamstatic.com
+DOMAIN,avatars.cloudflare.steamstatic.com
+DOMAIN,avatars.steamstatic.com
+DOMAIN,cdn.cloudflare.steamstatic.com
+DOMAIN,cdn.steamstatic.com
+DOMAIN,clan.cloudflare.steamstatic.com
+DOMAIN,community.akamai.steamstatic.com
+DOMAIN,community.cloudflare.steamstatic.com
+DOMAIN,community.steamstatic.com
+DOMAIN,dfs.cloudflare.steamstatic.com
+DOMAIN,edge.steam-dns.top.comcast.net
+DOMAIN,level3.cdn.steampipe.steamcontent.com
+DOMAIN,media.st.dl.eccdnx.com
+DOMAIN,media.steampowered.com
+DOMAIN,steam.eca.qtlglb.com
+DOMAIN,steam.naeu.qtlglb.com
+DOMAIN,steam.ru.qtlglb.com
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steampipe-kr.akamaized.net
+DOMAIN,steampipe-partner.akamaized.net
+DOMAIN,steampipe-partner.secure2.footprint.net
+DOMAIN,steampipe.akamaized.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN,store.cloudflare.steamstatic.com
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN,video.cloudflare.steamstatic.com
+
+# Riot游戏下载、更新[国际]
+DOMAIN,bacon.secure.dyn.riotcdn.net
+DOMAIN,bacon.dyn.riotcdn.net
+DOMAIN,ks-foundation.secure.dyn.riotcdn.net
+DOMAIN,ks-foundation.dyn.riotcdn.net
+DOMAIN,lol.secure.dyn.riotcdn.net
+DOMAIN,lol.dyn.riotcdn.net
+DOMAIN,riot-client.secure.dyn.riotcdn.net
+DOMAIN,riot-client.dyn.riotcdn.net
+DOMAIN,valorant.secure.dyn.riotcdn.net
+DOMAIN,valorant.dyn.riotcdn.net
+
+# FiveM游戏下载、更新[国际]
+DOMAIN,changelogs-live.fivem.net
+DOMAIN,c.fivem.net
+DOMAIN,cnl-hb-live.fivem.net
+DOMAIN,cookbook.fivem.net
+DOMAIN,crash-ingress.fivem.net
+DOMAIN,crashes.fivem.net
+DOMAIN,content.cfx.re
+DOMAIN,docs.fivem.net
+DOMAIN,docs-backend.fivem.net
+DOMAIN,forum.fivem.net
+DOMAIN,fx-crashingress-1.live.fivem.net
+DOMAIN,forum.cfx.re
+DOMAIN,git.fivem.net
+DOMAIN,idms.fivem.net
+DOMAIN,keymaster.fivem.net
+DOMAIN,kibana-live.fivem.net
+DOMAIN,largo.live.fivem.net
+DOMAIN,lambda.fivem.net
+DOMAIN,mirrors.fivem.net
+DOMAIN,minio-cluster.fivem.net
+DOMAIN,native-collector-live.fivem.net
+DOMAIN,netdata-internal.fivem.net
+DOMAIN,netdata.fivem.net
+DOMAIN,policy-live.fivem.net
+DOMAIN,runtime.fivem.net
+DOMAIN,rethinkdb-admin.fivem.net
+DOMAIN,servers.fivem.net
+DOMAIN,servers-staging.fivem.net
+DOMAIN,sentry.fivem.net
+DOMAIN,servers-ingress-live.fivem.net
+DOMAIN,servers-live.fivem.net
+DOMAIN,storage.fivem.net
+DOMAIN,servers-frontend.fivem.net
+DOMAIN,status.fivem.net
+DOMAIN,wiki.fivem.net
+
+# Bethesda贝塞斯达客户端、游戏及mod的下载、更新[国际]
+DOMAIN,content.cdp.bethesda.net
+DOMAIN,download.cdp.bethesda.net
+
+# Hikari Field游戏下载及更新[国际]
+DOMAIN,download.hikarifield.co.jp
+
+# Dlsite游戏下载[国际]
+DOMAIN,download.dlsite.com
+DOMAIN,file.chobit.cc
+DOMAIN,img.dlsite.jp
+DOMAIN,play.dl.dlsite.com
+DOMAIN,trial.dlsite.com
+
+# Bandai Namco万代南梦宫[国际]
+DOMAIN,account.bandainamcoid.com
+DOMAIN,account-api.bandainamcoid.com
+DOMAIN,clientpatch.aws.blue-protocol.com
+DOMAIN,clientpatch.blue-protocol.com
+DOMAIN,client-patch.gundamevogame.com
+DOMAIN,datastore-main.aws.blue-protocol.com
+DOMAIN,flg-main.aws.blue-protocol.com
+DOMAIN,g-ahpatch-prod.blue-protocol.com
+DOMAIN,masterdata-main.aws.blue-protocol.com
+DOMAIN,object-bnolauncher-ct.bandainamco-ol.jp
+DOMAIN,object-bnolauncher-pf.bandainamco-ol.jp
+DOMAIN,object-web.blue-protocol.com
+DOMAIN,object.gundamevolution.jp
+DOMAIN,object-web.gundamevolution.jp
+
+# Cloudflare云存储
+DOMAIN-SUFFIX,cloudflarestorage.com
