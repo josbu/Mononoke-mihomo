@@ -1,7 +1,7 @@
 # Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.10.06
+# Update Date: 2024.10.21
 
 # 通用设置
 mode: rule
@@ -626,7 +626,7 @@ rule-providers:
     behavior: classical
     format: text
     interval: 86400
-    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/RuleSet/AppleProxyService.list
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/AppleProxyService.list
   Apple:
     behavior: classical
     format: text
