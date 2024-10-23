@@ -1,4 +1,4 @@
-# 2024-10-23 13:13
+# 2024-10-23 13:20
 # author: https://github.com/Repcz
 # alter: https://github.com/Coldvvater
 name: Fork & Edit
@@ -37,7 +37,7 @@ jobs:
       run: |
         mkdir -p Mononoke/{Clash,Stash,Surge}/Rules
         # 苹果
-        curl -L -o Tool-repo/Surge/Rules/APNs.list "https://proxyresource.pages.dev/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Mononoke-repo/Surge/Rules/APNs.list "https://proxyresource.pages.dev/Tool/Loon/Rule/ApplePushNotificationService.list"
         curl -L -o Mononoke-repo/Surge/Rules/Apple.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         curl -L -o Mononoke-repo/Surge/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
         curl -L -o Mononoke-repo/Surge/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
