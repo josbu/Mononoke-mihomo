@@ -1,4 +1,7 @@
-# 内容：Claude
-# 数量：2条
+# NAME: Claude
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 2
+# TOTAL: 3
+DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
