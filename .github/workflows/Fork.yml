@@ -1,4 +1,4 @@
-# 2024-10-23 18:50
+# 2024-10-24 13:30
 # author: https://github.com/Repcz
 # alter: https://github.com/Coldvvater
 name: Fork & Edit
@@ -476,7 +476,7 @@ jobs:
         curl -L -o Mononoke-repo/Stash/Rules/Ads_fmz200.yaml "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
         # Lan
         cp -r Mononoke-repo/Surge/Rules/Lan.list Mononoke-repo/Stash/Rules/Lan.yaml
-        curl -L -o Mononoke-repo/Stash/Rules/APNs.list "https://kelee.one/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Mononoke-repo/Stash/Rules/APNs.list "https://proxyresource.pages.dev/Tool/Loon/Rule/ApplePushNotificationService.list"
         curl -L -o Mononoke-repo/Stash/Rules/Apple.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
