@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.10.18
+# Update Date: 2024.10.25
 
 port: 7890                           # HTTP(S) 代理服务器端口
 socks-port: 7891                     # SOCKS5 代理端口
@@ -228,7 +228,7 @@ rule-providers:
  private-ip: {<<: *i, path: ./ruleset/private-ip.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs}
 
 # AI平台
- ai-classical: {<<: *c, path: ./ruleset/ai-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/AI.list}
+ ai-domain: {<<: *d, path: ./ruleset/ai-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-chat-!cn.mrs}
 
 # YouTube
  youtube-domain: {<<: *d, path: ./ruleset/youtube-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs}
@@ -262,7 +262,7 @@ rule-providers:
  tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs}
 
 # 国际流媒体
- streamingmedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/ProxyMedia.list}
+ proxymedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/ProxyMedia.list}
 
 # Telegram
  telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs}
@@ -310,7 +310,7 @@ rules:
   - DOMAIN,d.metacubex.one,DIRECT
 
   - RULE-SET,private-domain,DIRECT
-  - RULE-SET,ai-classical,AIGC
+  - RULE-SET,ai-domain,AIGC
   - RULE-SET,youtube-domain,YouTube
   - RULE-SET,netflix-domain,NETFLIX
   - RULE-SET,emby-classical,Emby
@@ -320,7 +320,7 @@ rules:
   - RULE-SET,spotify-domain,Spotify
   - RULE-SET,neteasemusic-classical,NetEaseMusic
   - RULE-SET,tiktok-domain,TikTok
-  - RULE-SET,streamingmedia-classical,Streaming
+  - RULE-SET,proxymedia-classical,Streaming
   - RULE-SET,telegram-domain,Telegram
   - RULE-SET,github-domain,Proxy
   - RULE-SET,twitter-domain,X
