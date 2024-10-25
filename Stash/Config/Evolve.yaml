@@ -535,7 +535,7 @@ rules:
   - RULE-SET,Bahamut,TaiWan
   - RULE-SET,BiliIntl,Streaming
   - RULE-SET,BiliBili,BiliBili
-  - RULE-SET,GlobalMedia,Streaming
+  - RULE-SET,ProxyMedia,Streaming
   - RULE-SET,Spotify,Spotify
   - RULE-SET,NetEaseMusic,NetEaseMusic
   - RULE-SET,TikTok,TikTok
@@ -603,7 +603,7 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/TikTok.list
-  GlobalMedia:
+  ProxyMedia:
     behavior: classical
     format: text
     interval: 86400
