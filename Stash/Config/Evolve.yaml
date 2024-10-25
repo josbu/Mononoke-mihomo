@@ -1,7 +1,7 @@
 # Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.10.21
+# Update Date: 2024.10.25
 
 # 通用设置
 mode: rule
@@ -86,7 +86,7 @@ proxy-providers:
   Subscribe:
     url: http://your-service-provider # 用你的订阅链接替换
     interval: 86400
-    benchmark-url: http://cp.cloudflare.com
+    benchmark-url: http://connectivitycheck.gstatic.com/generate_204
     benchmark-timeout: 5
     # 功能分组
 proxy-groups:
@@ -528,31 +528,32 @@ proxy-groups:
     lazy: true
     # 规则引用
 rules:
-  - RULE-SET,AI,AIGC
+  - RULE-SET,AIGC,AIGC
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
   - RULE-SET,Emby,Emby
   - RULE-SET,Bahamut,TaiWan
   - RULE-SET,BiliIntl,Streaming
   - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,GlobalMedia,Streaming
   - RULE-SET,Spotify,Spotify
   - RULE-SET,NetEaseMusic,NetEaseMusic
   - RULE-SET,TikTok,TikTok
-  - RULE-SET,StreamingMedia,Streaming
   - RULE-SET,Telegram,Telegram
   - RULE-SET,GitHub,Proxy
   - RULE-SET,Twitter,X
-  - RULE-SET,AppleProxy,Proxy
+  - RULE-SET,AppleProxyService,Proxy
   - RULE-SET,Apple,Apple
   - RULE-SET,Google,Google
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Games,Games
-  - RULE-SET,Proxy,Proxy
-  - RULE-SET,China,DIRECT
+  - RULE-SET,ProxyGFW,Proxy
+  - RULE-SET,CN_Mainland,DIRECT
+  - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Final
 rule-providers:
-  AI:
+  AIGC:
     behavior: classical
     format: text
     interval: 86400
@@ -602,7 +603,7 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/TikTok.list
-  StreamingMedia:
+  GlobalMedia:
     behavior: classical
     format: text
     interval: 86400
@@ -622,7 +623,7 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Twitter.list
-  AppleProxy:
+  AppleProxyService:
     behavior: classical
     format: text
     interval: 86400
@@ -647,12 +648,12 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Game.list
-  China:
+  CN_Mainland:
     behavior: classical
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/ChinaDomain.list
-  Proxy:
+  ProxyGFW:
     behavior: classical
     format: text
     interval: 86400
