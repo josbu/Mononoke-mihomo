@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.10.25
+# Update Date: 2024.10.26
 
 port: 7890                           # HTTP(S) 代理服务器端口
 socks-port: 7891                     # SOCKS5 代理端口
@@ -294,7 +294,7 @@ rule-providers:
  microsoft-domain: {<<: *d, path: ./ruleset/microsoft-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs}
 
 # 游戏平台
- games-classical: {<<: *c, path: ./ruleset/games-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/Game.list}
+ games-domain: {<<: *c, path: ./ruleset/games-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.mrs}
 
 # 国内网站
  cn-domain: {<<: *d, path: ./ruleset/cn-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs}
@@ -328,7 +328,7 @@ rules:
   - RULE-SET,apple-domain,Apple
   - RULE-SET,google-domain,Google
   - RULE-SET,microsoft-domain,Microsoft
-  - RULE-SET,games-classical,Games
+  - RULE-SET,games-domain,Games
   - RULE-SET,proxy-domain,Proxy
 
   - RULE-SET,google-ip,Google
