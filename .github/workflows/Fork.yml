@@ -1,4 +1,4 @@
-# 2024-10-25 20:04
+# 2024-10-26 14:41
 # author: https://github.com/Repcz
 # alter: https://github.com/Coldvvater
 name: Fork & Edit
@@ -101,7 +101,7 @@ jobs:
         curl -L -o Mononoke-repo/Surge/Rules/DownloadCDN_Global.list "https://proxyresource.pages.dev/Tool/Loon/Rule/InternationalDownloadCDN.list"
         curl -L -o Mononoke-repo/Surge/Rules/DownloadCDN_CN.list "https://proxyresource.pages.dev/Tool/Loon/Rule/ChinaDownloadCDN.list"
         # 国内规则 
-        curl -L -o Mononoke-repo/Surge/Rules/NetEaseMusic.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+        curl -L -o Mononoke-repo/Surge/Rules/NetEaseMusic.list "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list"
         curl -L -o Mononoke-repo/Surge/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
         curl -L -o Mononoke-repo/Surge/Rules/WeChat.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list"
         curl -L -o Mononoke-repo/Surge/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
@@ -284,7 +284,7 @@ jobs:
         # PayPal
         curl -L -o Mononoke-repo/Clash/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
         # 国内规则 
-        curl -L -o Mononoke-repo/Clash/Rules/NetEaseMusic.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+        curl -L -o Mononoke-repo/Clash/Rules/NetEaseMusic.list "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list"
         curl -L -o Mononoke-repo/Clash/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
         curl -L -o Mononoke-repo/Clash/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
         curl -L -o Mononoke-repo/Clash/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
@@ -438,7 +438,7 @@ jobs:
         curl -L -o Mononoke-repo/Stash/Rules/ProxyMedia.yaml "https://raw.githubusercontent.com/LM-Firefly/Rules/master/GlobalMedia.list"
         cp -r Mononoke-repo/Surge/Rules/Emby.list Mononoke-repo/Stash/Rules/Emby.yaml
         # 国内规则 
-        curl -L -o Mononoke-repo/Stash/Rules/NetEaseMusic.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+        curl -L -o Mononoke-repo/Stash/Rules/NetEaseMusic.yaml "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list"
         curl -L -o Mononoke-repo/Stash/Rules/Bilibili.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
         curl -L -o Mononoke-repo/Stash/Rules/WeChat.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
         curl -L -o Mononoke-repo/Stash/Rules/ChinaDomain.yaml "https://ruleset.skk.moe/List/non_ip/domestic.conf"
@@ -519,7 +519,7 @@ jobs:
         curl -L -o Mononoke-repo/Stash/Rules/ProxyMedia.list "https://raw.githubusercontent.com/LM-Firefly/Rules/master/GlobalMedia.list"
         cp -r Mononoke-repo/Surge/Rules/Emby.list Mononoke-repo/Stash/Rules/Emby.list
         # 国内规则 
-        curl -L -o Mononoke-repo/Stash/Rules/NetEaseMusic.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list"
+        curl -L -o Mononoke-repo/Stash/Rules/NetEaseMusic.list "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list"
         curl -L -o Mononoke-repo/Stash/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
         curl -L -o Mononoke-repo/Stash/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
         curl -L -o Mononoke-repo/Stash/Rules/ChinaDomain.list "https://ruleset.skk.moe/List/non_ip/domestic.conf"
