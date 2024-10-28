@@ -1,4 +1,4 @@
-# 2024-10-26 14:41
+# 2024-10-28 14:29
 # author: https://github.com/Repcz
 # alter: https://github.com/Coldvvater
 name: Fork & Edit
@@ -46,7 +46,7 @@ jobs:
         curl -L -o Mononoke-repo/Surge/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
         curl -L -o Mononoke-repo/Surge/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
         # OpenAI
-        curl -L -o Mononoke-repo/Surge/Rules/OpenAI.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list"
+        curl -L -o Mononoke-repo/Surge/Rules/OpenAI.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
         # Claude AI
         curl -L -o Mononoke-repo/Surge/Rules/Claude.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list"
         # AIGC
@@ -249,7 +249,7 @@ jobs:
         curl -L -o Mononoke-repo/Clash/Rules/Apple.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         cp -r Mononoke-repo/Surge/Rules/AppleProxyService.list Mononoke-repo/Clash/Rules/AppleProxyService.list
         # OpenAI
-        curl -L -o Mononoke-repo/Clash/Rules/OpenAI.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list"
+        curl -L -o Mononoke-repo/Clash/Rules/OpenAI.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
         # Claude AI
         curl -L -o Mononoke-repo/Clash/Rules/Claude.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list"
         # AIGC
@@ -405,7 +405,7 @@ jobs:
         curl -L -o Mononoke-repo/Stash/Rules/AppleProxy.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
         cp -r Mononoke-repo/Surge/Rules/AppleProxyService.list Mononoke-repo/Stash/Rules/AppleProxyService.yaml
         # OpenAI
-        curl -L -o Mononoke-repo/Stash/Rules/OpenAI.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list"
+        curl -L -o Mononoke-repo/Stash/Rules/OpenAI.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
         # Claude AI
         curl -L -o Mononoke-repo/Stash/Rules/Claude.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list"
         # AIGC
@@ -486,7 +486,7 @@ jobs:
         curl -L -o Mononoke-repo/Stash/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
         cp -r Mononoke-repo/Surge/Rules/AppleProxyService.list Mononoke-repo/Stash/Rules/AppleProxyService.list
         # OpenAI
-        curl -L -o Mononoke-repo/Stash/Rules/OpenAI.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list"
+        curl -L -o Mononoke-repo/Stash/Rules/OpenAI.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
         # Claude AI
         curl -L -o Mononoke-repo/Stash/Rules/Claude.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list"
         # AIGC
