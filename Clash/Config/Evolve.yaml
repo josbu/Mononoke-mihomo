@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.10.26
+# Update Date: 2024.10.28
 
 port: 7890                           # HTTP(S) 代理服务器端口
 socks-port: 7891                     # SOCKS5 代理端口
@@ -136,7 +136,7 @@ proxy-groups:
  - {name: Proxy, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png, <<: *Select, proxies: [HongKong,TaiWan,Japan,Korea,Singapore,America,UnitedKingdom,AllServer,DIRECT]}
 
 # AI平台
- - {name: AIGC, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png, <<: *Select}
+ - {name: AI, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png, <<: *Select}
 
 # YouTube
  - {name: YouTube, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, <<: *Select}
@@ -241,6 +241,9 @@ rule-providers:
 # Emby
  emby-classical: {<<: *c, path: ./ruleset/emby-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/Emby.list}
 
+# TikTok
+ tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs}
+
 # 动画疯
  bahamut-domain: {<<: *d, path: ./ruleset/bahamut-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs}
 
@@ -257,9 +260,6 @@ rule-providers:
 
 # 网易云音乐
  neteasemusic-classical: {<<: *c, path: ./ruleset/neteasemusic-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/NetEaseMusic.list}
-
-# TikTok
- tiktok-domain: {<<: *d, path: ./ruleset/tiktok-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs}
 
 # 国际流媒体
  proxymedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/ProxyMedia.list}
@@ -310,16 +310,16 @@ rules:
   - DOMAIN,d.metacubex.one,DIRECT
 
   - RULE-SET,private-domain,DIRECT
-  - RULE-SET,ai-domain,AIGC
+  - RULE-SET,ai-domain,AI
   - RULE-SET,youtube-domain,YouTube
   - RULE-SET,netflix-domain,NETFLIX
   - RULE-SET,emby-classical,Emby
+  - RULE-SET,tiktok-domain,TikTok
   - RULE-SET,bahamut-domain,TaiWan
   - RULE-SET,biliintl-domain,Streaming
   - RULE-SET,bilibili-domain,BiliBili
   - RULE-SET,spotify-domain,Spotify
   - RULE-SET,neteasemusic-classical,NetEaseMusic
-  - RULE-SET,tiktok-domain,TikTok
   - RULE-SET,proxymedia-classical,Streaming
   - RULE-SET,telegram-domain,Telegram
   - RULE-SET,github-domain,Proxy
