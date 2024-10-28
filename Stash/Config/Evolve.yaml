@@ -532,10 +532,10 @@ rules:
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
   - RULE-SET,Emby,Emby
+  - RULE-SET,TikTok,TikTok
   - RULE-SET,Bahamut,TaiWan
   - RULE-SET,BiliIntl,Streaming
   - RULE-SET,BiliBili,BiliBili
-  - RULE-SET,TikTok,TikTok
   - RULE-SET,Spotify,Spotify
   - RULE-SET,NetEaseMusic,NetEaseMusic
   - RULE-SET,ProxyMedia,Streaming
