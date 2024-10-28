@@ -1,7 +1,7 @@
 # Stash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.10.27
+# Update Date: 2024.10.28
 
 # 通用设置
 mode: rule
@@ -109,7 +109,7 @@ proxy-groups:
       - UnitedKingdom
       - AllServer
       - DIRECT
-  - name: AIGC
+  - name: AI
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
     proxies:
@@ -528,17 +528,17 @@ proxy-groups:
     lazy: true
     # 规则引用
 rules:
-  - RULE-SET,AIGC,AIGC
+  - RULE-SET,AI,AI
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
   - RULE-SET,Emby,Emby
   - RULE-SET,Bahamut,TaiWan
   - RULE-SET,BiliIntl,Streaming
   - RULE-SET,BiliBili,BiliBili
-  - RULE-SET,ProxyMedia,Streaming
+  - RULE-SET,TikTok,TikTok
   - RULE-SET,Spotify,Spotify
   - RULE-SET,NetEaseMusic,NetEaseMusic
-  - RULE-SET,TikTok,TikTok
+  - RULE-SET,ProxyMedia,Streaming
   - RULE-SET,Telegram,Telegram
   - RULE-SET,GitHub,Proxy
   - RULE-SET,Twitter,X
@@ -553,7 +553,7 @@ rules:
   - GEOIP,CN,DIRECT
   - MATCH,Final
 rule-providers:
-  AIGC:
+  AI:
     behavior: classical
     format: text
     interval: 86400
