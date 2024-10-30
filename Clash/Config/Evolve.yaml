@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.10.28
+# Update Date: 2024.10.30
 
 port: 7890                           # HTTP(S) 代理服务器端口
 socks-port: 7891                     # SOCKS5 代理端口
@@ -147,6 +147,9 @@ proxy-groups:
 # Emby
  - {name: Emby, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, <<: *Select}
 
+# TikTok
+ - {name: TikTok, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png, <<: *Select}
+
 # 哔哩哔哩
  - {name: BiliBili, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png, <<: *Select, proxies: [DIRECT,HongKong,TaiWan]}
 
@@ -155,9 +158,6 @@ proxy-groups:
 
 # 网易云音乐
  - {name: NetEaseMusic, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png, <<: *Select, proxies: [DIRECT]}
-
-# TikTok
- - {name: TikTok, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png, <<: *Select}
 
 # 国际流媒体
  - {name: Streaming, icon: https://ghp.ci/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Streaming.png, <<: *Select}
@@ -324,7 +324,7 @@ rules:
   - RULE-SET,telegram-domain,Telegram
   - RULE-SET,github-domain,Proxy
   - RULE-SET,twitter-domain,X
-  - RULE-SET,apple-classical,Proxy
+  - RULE-SET,apple-classical,America
   - RULE-SET,apple-domain,Apple
   - RULE-SET,google-domain,Google
   - RULE-SET,microsoft-domain,Microsoft
