@@ -3,6 +3,8 @@ payload:
   - DOMAIN-SUFFIX,appsto.re
   # > Spotlight
   - DOMAIN-SUFFIX,smoot.apple.com
+  # > Apple Intelligence Extensions
+  - DOMAIN,apple-relay.apple.com
   # > Podcasts
   - DOMAIN,amp-api.podcasts.apple.com
   # > Apple Music Web
