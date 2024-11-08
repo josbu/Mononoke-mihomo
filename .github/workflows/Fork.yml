@@ -1,4 +1,4 @@
-# 2024-11-08 16:20
+# 2024-11-08 16:26
 # author: https://github.com/Repcz
 # alter: https://github.com/Coldvvater
 name: Fork & Edit
@@ -6,7 +6,7 @@ name: Fork & Edit
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 6,18 * * ?"
+    - cron: "0 0 6,18 * * *"
   
 jobs:
   Fork-FLITER-list:
