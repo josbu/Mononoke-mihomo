@@ -2,10 +2,10 @@ payload:
   # NAME: China
   # DOMAIN: 15
   # DOMAIN-KEYWORD: 9
-  # DOMAIN-SUFFIX: 3675
+  # DOMAIN-SUFFIX: 3676
   # IP-CIDR: 17
   # IP-CIDR6: 4
-  # TOTAL: 3720
+  # TOTAL: 3721
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,cdn.angruo.com
@@ -3557,6 +3557,7 @@ payload:
   - DOMAIN-SUFFIX,ypppt.com
   - DOMAIN-SUFFIX,yqb.com
   - DOMAIN-SUFFIX,yrz.name
+  - DOMAIN-SUFFIX,ysepay.com
   - DOMAIN-SUFFIX,yslyhr.com
   - DOMAIN-SUFFIX,ysten.com
   - DOMAIN-SUFFIX,ytzq.com
