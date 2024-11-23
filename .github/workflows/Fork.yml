@@ -1,4 +1,4 @@
-# 2024-11-08 16:26
+# 2024-11-23 13:11
 # author: https://github.com/Repcz
 # alter: https://github.com/Coldvvater
 name: Fork & Edit
@@ -37,7 +37,7 @@ jobs:
       run: |
         mkdir -p Mononoke/{Clash,Stash,Surge}/Rules
         # 苹果
-        curl -L -o Mononoke-repo/Surge/Rules/APNs.list "https://proxyresource.pages.dev/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -A "Surge iOS/3367" -L -o Mononoke-repo/Surge/Rules/APNs.list "https://kelee.one/Tool/Loon/Rule/ApplePushNotificationService.list"
         curl -L -o Mononoke-repo/Surge/Rules/Apple.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         curl -L -o Mononoke-repo/Surge/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
         curl -L -o Mononoke-repo/Surge/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
@@ -98,8 +98,8 @@ jobs:
         curl -L -o Mononoke-repo/Surge/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
         curl -L -o Mononoke-repo/Surge/Rules/Game.list "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list"
         # 下载CDN
-        curl -L -o Mononoke-repo/Surge/Rules/DownloadCDN_Global.list "https://proxyresource.pages.dev/Tool/Loon/Rule/InternationalDownloadCDN.list"
-        curl -L -o Mononoke-repo/Surge/Rules/DownloadCDN_CN.list "https://proxyresource.pages.dev/Tool/Loon/Rule/ChinaDownloadCDN.list"
+        curl -A "Surge iOS/3367" -L -o Mononoke-repo/Surge/Rules/DownloadCDN_Global.list "https://kelee.one/Tool/Loon/Rule/InternationalDownloadCDN.list"
+        curl -A "Surge iOS/3367" -L -o Mononoke-repo/Surge/Rules/DownloadCDN_CN.list "https://kelee.one/Tool/Loon/Rule/ChinaDownloadCDN.list"
         # 国内规则 
         curl -L -o Mononoke-repo/Surge/Rules/NetEaseMusic.list "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/NeteaseMusic.list"
         curl -L -o Mononoke-repo/Surge/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
@@ -299,8 +299,8 @@ jobs:
         curl -L -o Mononoke-repo/Clash/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
         curl -L -o Mononoke-repo/Clash/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
         # 下载CDN
-        curl -L -o Mononoke-repo/Clash/Rules/DownloadCDN_Global.list "https://proxyresource.pages.dev/Tool/Loon/Rule/InternationalDownloadCDN.list"
-        curl -L -o Mononoke-repo/Clash/Rules/DownloadCDN_CN.list "https://proxyresource.pages.dev/Tool/Loon/Rule/ChinaDownloadCDN.list"
+        curl -A "Surge iOS/3367" -L -o Mononoke-repo/Clash/Rules/DownloadCDN_Global.list "https://kelee.one/Tool/Loon/Rule/InternationalDownloadCDN.list"
+        curl -A "Surge iOS/3367" -L -o Mononoke-repo/Clash/Rules/DownloadCDN_CN.list "https://kelee.one/Tool/Loon/Rule/ChinaDownloadCDN.list"
         # 广告规则 
         curl -L -o Mononoke-repo/Clash/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
         curl -L -o Mononoke-repo/Clash/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
@@ -397,7 +397,7 @@ jobs:
       run: |
         mkdir -p Mononoke/{Clash,Stash,Surge}/Rules
 
-        curl -L -o Mononoke-repo/Stash/Rules/APNs.yaml "https://proxyresource.pages.dev/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -A "Surge iOS/3367" -L -o Mononoke-repo/Stash/Rules/APNs.yaml "https://kelee.one/Tool/Loon/Rule/ApplePushNotificationService.list"
         curl -L -o Mononoke-repo/Stash/Rules/Apple.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppStore.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppleID.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
@@ -479,7 +479,8 @@ jobs:
         curl -L -o Mononoke-repo/Stash/Rules/Ads_fmz200.yaml "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
         # Lan
         cp -r Mononoke-repo/Surge/Rules/Lan.list Mononoke-repo/Stash/Rules/Lan.yaml
-        curl -L -o Mononoke-repo/Stash/Rules/APNs.list "https://proxyresource.pages.dev/Tool/Loon/Rule/ApplePushNotificationService.list"
+
+        curl -A "Surge iOS/3367" -L -o Mononoke-repo/Stash/Rules/APNs.list "https://kelee.one/Tool/Loon/Rule/ApplePushNotificationService.list"
         curl -L -o Mononoke-repo/Stash/Rules/Apple.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Apple.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
         curl -L -o Mononoke-repo/Stash/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
