@@ -1,4 +1,4 @@
-# 2024-11-23 13:11
+# 2024-11-23 13:17
 # author: https://github.com/Repcz
 # alter: https://github.com/Coldvvater
 name: Fork & Edit
@@ -57,7 +57,7 @@ jobs:
         curl -L -o Mononoke-repo/Surge/Rules/Facebook.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
         curl -L -o Mononoke-repo/Surge/Rules/Telegram.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Telegram.list"
         # Talkatone
-        curl -L -o Mononoke-repo/Surge/Rules/Talkatone.list "https://proxyresource.pages.dev/Tool/Loon/Rule/Talkatone.list"
+        curl -L -o Mononoke-repo/Surge/Rules/Talkatone.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Talkatone.list"
         # Trust
         curl -L -o Mononoke-repo/Surge/Rules/Trust.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Trust.list"
         # TronLink
