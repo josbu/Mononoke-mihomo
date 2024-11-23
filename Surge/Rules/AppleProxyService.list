@@ -4,6 +4,8 @@ DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,smoot.apple.com
 # > Apple Intelligence Extensions
 DOMAIN,apple-relay.apple.com
+DOMAIN-SUFFIX, apple-relay.cloudflare.com
+DOMAIN-KEYWORD, apple-relay
 # > Podcasts
 DOMAIN,amp-api.podcasts.apple.com
 # > Apple Music Web
