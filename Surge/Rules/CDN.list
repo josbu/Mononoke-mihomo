@@ -104,6 +104,7 @@ DOMAIN,assets.codepen.io
 DOMAIN,assets.coinbase.com
 DOMAIN,assets.coingecko.com
 DOMAIN,assets.context.ly
+DOMAIN,assets.controld.com
 DOMAIN,assets.convertkit.com
 DOMAIN,assets.dev.to
 DOMAIN,assets.dify.ai
@@ -508,6 +509,7 @@ DOMAIN,cdn.stash.com
 DOMAIN,cdn.stellarhosted.com
 DOMAIN,cdn.substack.com
 DOMAIN,cdn.sunofbeaches.com
+DOMAIN,cdn.svgator.com
 DOMAIN,cdn.tailwindcss.com
 DOMAIN,cdn.termius.com
 DOMAIN,cdn.thisav.com
@@ -840,6 +842,7 @@ DOMAIN,i.iheart.com
 DOMAIN,i.imgflip.com
 DOMAIN,i.imgur.com
 DOMAIN,i.insider.com
+DOMAIN,i.ioiox.com
 DOMAIN,i.iwara.tv
 DOMAIN,i.jpg.dog
 DOMAIN,i.loli.best
@@ -1072,6 +1075,7 @@ DOMAIN,js.upload.io
 DOMAIN,js.userflow.com
 DOMAIN,js.verygoodvault.com
 DOMAIN,js1.chargebee.com
+DOMAIN,jsdelivr.ioiox.net
 DOMAIN,jslibs.blackmagicdesign.com
 DOMAIN,jsonplaceholder.typicode.com
 DOMAIN,kdata1.com
