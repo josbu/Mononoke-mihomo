@@ -1,7 +1,7 @@
 # Clash Config Make by Coldvvater
 # TG Channel: https://t.me/Coldvvater_Channel
 # GitHub: https://github.com/Coldvvater
-# Update Date: 2024.11.05
+# Update Date: 2024.11.27
 
 port: 7890                           # HTTP(S) 代理服务器端口
 socks-port: 7891                     # SOCKS5 代理端口
@@ -80,16 +80,16 @@ dns:
   fake-ip-filter: ['*', '+.lan', '+.local', '+.market.xiaomi.com', '+.msftconnecttest.com', '+.msftncsi.com']
                                      # Fake-ip 过滤，列表中的域名返回真实IP
   respect-rules: true                # dns 连接跟随 rules，需配置 proxy-server-nameserver
-  default-nameserver: [tls://223.5.5.5:853, tls://120.53.53.53:853]
+  default-nameserver: [223.5.5.5, 119.29.29.29]
                                      # 解析非IP的dns用的dns服务器，只支持纯IP, 可为加密 DNS
-  proxy-server-nameserver: [https://223.5.5.5/dns-query, https://120.53.53.53/dns-query]
+  proxy-server-nameserver: [https://dns.alidns.com/dns-query, https://doh.pub/dns-query]
                                      # 代理节点域名解析服务器，仅用于解析代理节点的域名
-  nameserver: [https://223.5.5.5/dns-query, https://120.53.53.53/dns-query]
+  nameserver: [https://dns.alidns.com/dns-query, https://doh.pub/dns-query]
                                      # 默认DNS服务器，支持udp/tcp/dot/doh/doq
   nameserver-policy:                 # 指定域名查询的解析服务器，可使用 geosite, 优先于 nameserver/fallback 查询
     "rule-set:cn-domain,private-domain":
-      - https://223.5.5.5/dns-query
-      - https://120.53.53.53/dns-query
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
     "rule-set:proxy-domain":
       - "https://dns.google/dns-query"
       - "https://dns.cloudflare.com/dns-query"
@@ -306,6 +306,9 @@ rule-providers:
 # 游戏平台
  games-domain: {<<: *d, path: ./ruleset/games-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.mrs}
 
+# WeChat
+ wechat-classical: {<<: *c, path: ./ruleset/wechat-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/WeChat.list}
+
 # 国内网站
  cn-domain: {<<: *d, path: ./ruleset/cn-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs}
 
@@ -340,7 +343,7 @@ rules:
   - RULE-SET,microsoft-domain,Microsoft
   - RULE-SET,games-domain,Games
   - RULE-SET,proxy-domain,Proxy
-
+  - RULE-SET,wechat-classical,DIRECT
   - RULE-SET,google-ip,Google
   - RULE-SET,netflix-ip,NETFLIX
   - RULE-SET,telegram-ip,Telegram
@@ -349,5 +352,5 @@ rules:
   - RULE-SET,bilibili-ip,BiliBili
   - RULE-SET,apple-ip,Apple
   - RULE-SET,private-ip,DIRECT
-  - GEOIP,CN,DIRECT
+  - GEOIP,cn,DIRECT
   - MATCH,Final
