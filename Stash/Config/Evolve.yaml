@@ -476,6 +476,7 @@ rules:
   - RULE-SET,Spotify,Spotify
   - RULE-SET,NetEaseMusic,NetEaseMusic
   - RULE-SET,ProxyMedia,Streaming
+  - RULE-SET,WeChat,DIRECT
   - RULE-SET,Telegram,Telegram
   - RULE-SET,GitHub,Proxy
   - RULE-SET,Twitter,X
@@ -485,7 +486,6 @@ rules:
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Games,Games
   - RULE-SET,ProxyGFW,Proxy
-  - RULE-SET,WeChat,DIRECT
   - RULE-SET,CN_Mainland,DIRECT
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
@@ -546,6 +546,11 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/ProxyMedia.list
+  WeChat:
+    behavior: classical
+    format: text
+    interval: 86400
+    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/WeChat.list
   Telegram:
     behavior: classical
     format: text
@@ -586,11 +591,6 @@ rule-providers:
     format: text
     interval: 86400
     url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/Game.list
-  WeChat:
-    behavior: classical
-    format: text
-    interval: 86400
-    url: https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Stash/Rules/WeChat.list
   CN_Mainland:
     behavior: classical
     format: text
