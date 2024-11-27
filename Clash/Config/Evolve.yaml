@@ -274,6 +274,9 @@ rule-providers:
 # 国际流媒体
  proxymedia-classical: {<<: *c, path: ./ruleset/streamingmedia-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/ProxyMedia.list}
 
+# WeChat
+ wechat-classical: {<<: *c, path: ./ruleset/wechat-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/WeChat.list}
+
 # Telegram
  telegram-domain: {<<: *d, path: ./ruleset/telegram-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs}
 
@@ -306,9 +309,6 @@ rule-providers:
 # 游戏平台
  games-domain: {<<: *d, path: ./ruleset/games-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-games.mrs}
 
-# WeChat
- wechat-classical: {<<: *c, path: ./ruleset/wechat-classical.list, url: https://ghp.ci/https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Clash/Rules/WeChat.list}
-
 # 国内网站
  cn-domain: {<<: *d, path: ./ruleset/cn-domain.mrs, url: https://ghp.ci/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs}
 
@@ -334,6 +334,7 @@ rules:
   - RULE-SET,spotify-domain,Spotify
   - RULE-SET,neteasemusic-classical,NetEaseMusic
   - RULE-SET,proxymedia-classical,Streaming
+  - RULE-SET,wechat-classical,DIRECT
   - RULE-SET,telegram-domain,Telegram
   - RULE-SET,github-domain,Proxy
   - RULE-SET,twitter-domain,X
@@ -343,7 +344,7 @@ rules:
   - RULE-SET,microsoft-domain,Microsoft
   - RULE-SET,games-domain,Games
   - RULE-SET,proxy-domain,Proxy
-  - RULE-SET,wechat-classical,DIRECT
+
   - RULE-SET,google-ip,Google
   - RULE-SET,netflix-ip,NETFLIX
   - RULE-SET,telegram-ip,Telegram
