@@ -1,6 +1,6 @@
 payload:
   # 规则名称: AdGuardChinese
-  # 规则统计: 5992
+  # 规则统计: 6000
 
   - DOMAIN-SUFFIX,002777.xyz
   - DOMAIN-SUFFIX,003store.com
@@ -233,6 +233,7 @@ payload:
   - DOMAIN-SUFFIX,4bfx0u.com
   - DOMAIN-SUFFIX,4cx5.icu
   - DOMAIN-SUFFIX,4fs3r.icu
+  - DOMAIN-SUFFIX,4i1.icu
   - DOMAIN-SUFFIX,4imk5.online
   - DOMAIN-SUFFIX,4ir17.icu
   - DOMAIN-SUFFIX,4jffu.cn
@@ -1309,6 +1310,7 @@ payload:
   - DOMAIN-SUFFIX,cijianggun.com
   - DOMAIN-SUFFIX,cismqdx.icu
   - DOMAIN-SUFFIX,cjgymo.xyz
+  - DOMAIN-SUFFIX,cjimtyf.top
   - DOMAIN-SUFFIX,cjndvoglik.xyz
   - DOMAIN-SUFFIX,cjpczyi.cn
   - DOMAIN-SUFFIX,cjzrfxs.xyz
@@ -2666,6 +2668,7 @@ payload:
   - DOMAIN-SUFFIX,infocab888.life
   - DOMAIN-SUFFIX,inifdlao.top
   - DOMAIN-SUFFIX,inone517.com
+  - DOMAIN-SUFFIX,inphais.com
   - DOMAIN-SUFFIX,inping.com
   - DOMAIN-SUFFIX,insfengdata.com
   - DOMAIN-SUFFIX,inte.sogou.com
@@ -3026,6 +3029,7 @@ payload:
   - DOMAIN-SUFFIX,kgymoc.xyz
   - DOMAIN-SUFFIX,khastreol.com
   - DOMAIN-SUFFIX,khcsvdc.icu
+  - DOMAIN-SUFFIX,khengrull.com
   - DOMAIN-SUFFIX,khesuts.com
   - DOMAIN-SUFFIX,khrtac.xiangha.com
   - DOMAIN-SUFFIX,khzyojb.cn
@@ -3359,6 +3363,7 @@ payload:
   - DOMAIN-SUFFIX,m549z.site
   - DOMAIN-SUFFIX,m6500.top
   - DOMAIN-SUFFIX,m6690.top
+  - DOMAIN-SUFFIX,m6d.icu
   - DOMAIN-SUFFIX,m6j37.xyz
   - DOMAIN-SUFFIX,m7i1k.fun
   - DOMAIN-SUFFIX,m8oxd.xyz
@@ -3395,6 +3400,7 @@ payload:
   - DOMAIN-SUFFIX,mcighme.icu
   - DOMAIN-SUFFIX,mckgmkh.icu
   - DOMAIN-SUFFIX,md.tvzhe.com
+  - DOMAIN-SUFFIX,mdamcsx.top
   - DOMAIN-SUFFIX,mdezco.xyz
   - DOMAIN-SUFFIX,mdfsbn.com
   - DOMAIN-SUFFIX,mdhv3.icu
@@ -4043,6 +4049,7 @@ payload:
   - DOMAIN-SUFFIX,q2usj.icu
   - DOMAIN-SUFFIX,q4v3c.site
   - DOMAIN-SUFFIX,q6gub.website
+  - DOMAIN-SUFFIX,q8q.icu
   - DOMAIN-SUFFIX,qacdf511.cn
   - DOMAIN-SUFFIX,qange.com
   - DOMAIN-SUFFIX,qbcmws.xyz
@@ -4954,6 +4961,7 @@ payload:
   - DOMAIN-SUFFIX,ufjslit.top
   - DOMAIN-SUFFIX,uflybplr.xyz
   - DOMAIN-SUFFIX,uftcfo.xyz
+  - DOMAIN-SUFFIX,ugajiwft.icu
   - DOMAIN-SUFFIX,ugbler.icu
   - DOMAIN-SUFFIX,ugidskit.top
   - DOMAIN-SUFFIX,ugkpsi.xyz
