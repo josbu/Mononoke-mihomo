@@ -1,7 +1,7 @@
 payload:
   #########################################
   # Sukka's Ruleset - Domestic Domains
-  # Last Updated: 2024-12-02T15:51:00.495Z
+  # Last Updated: 2024-12-09T10:19:27.834Z
   # Size: 762
   # License: AGPL 3.0
   # Homepage: https://ruleset.skk.moe
@@ -552,6 +552,7 @@ payload:
   - DOMAIN-SUFFIX,alikunlun.com
   - DOMAIN-SUFFIX,bilicomic.com
   - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN-SUFFIX,bytegoofy.com
   - DOMAIN-SUFFIX,caiyunapp.com
   - DOMAIN-SUFFIX,camera360.com
@@ -751,7 +752,6 @@ payload:
   - DOMAIN,assets1.xboxlive.cn
   - DOMAIN,assets2.xboxlive.cn
   - DOMAIN-SUFFIX,71.am.com
-  - DOMAIN-SUFFIX,bytedance.com.com
   - DOMAIN,dl.ubnt.com
   - DOMAIN,config.ubnt.com
   - DOMAIN-SUFFIX,steam.ksyna.com
