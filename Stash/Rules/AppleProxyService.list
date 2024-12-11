@@ -1,3 +1,6 @@
+# 规则名称: AppleProxyService
+# 规则统计: 41
+
 # > Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re
 # > Spotlight

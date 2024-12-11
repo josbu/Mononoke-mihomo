@@ -1,3 +1,6 @@
+# 规则名称: ProxyMedia
+# 规则统计: 2034
+
 ## 🌍 GlobalMedia
 ## > AbemaTV
 DOMAIN-SUFFIX,abema-tv.com
