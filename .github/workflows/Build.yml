@@ -215,17 +215,6 @@ jobs:
           fi
         done
 
-    - name: Copy files
-      run: |
-        rm -rf Mononoke-repo/{Clash,Stash,Surge}/Rules
-        mkdir -p Mononoke-repo/{Clash,Stash,Surge}/Rules
-        for file in Mononoke-repo/Ruleset/*.list; do
-          filename=$(basename "$file")
-          for dir in Clash Stash Surge; do
-            cp "$file" "Mononoke-repo/$dir/Rules/$filename"
-        done
-        echo "Files copied successfully."
-
     - name: Clash
       run: |
         rm -rf Mononoke-repo/Ruleset
