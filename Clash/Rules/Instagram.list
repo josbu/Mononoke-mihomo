@@ -1,9 +1,3 @@
-# 规则名称: Instagram
-# 规则统计: 7
-
-# 规则名称: Instagram
-# 规则统计: 4
-
 DOMAIN-KEYWORD,instagram
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagr.am

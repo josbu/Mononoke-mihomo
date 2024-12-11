@@ -1,9 +1,3 @@
-# 规则名称: OneDrive
-# 规则统计: 21
-
-# 规则名称: OneDrive
-# 规则统计: 18
-
 #USER-AGENT,OneDrive*
 #USER-AGENT,OneDriveiOSApp*
 PROCESS-NAME,OneDrive

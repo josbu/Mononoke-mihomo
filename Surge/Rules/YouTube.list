@@ -1,9 +1,3 @@
-# 规则名称: YouTube
-# 规则统计: 22
-
-# 规则名称: YouTube
-# 规则统计: 19
-
 # 内容：YouTube
 # 数量：17条
 USER-AGENT,*youtube*
