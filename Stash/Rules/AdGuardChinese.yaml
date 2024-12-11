@@ -1,6 +1,6 @@
 payload:
   # 规则名称: AdGuardChinese
-  # 规则统计: 6036
+  # 规则统计: 6041
 
   - DOMAIN-SUFFIX,002777.xyz
   - DOMAIN-SUFFIX,003store.com
@@ -4288,6 +4288,7 @@ payload:
   - DOMAIN-SUFFIX,rhzvlcu.xyz
   - DOMAIN-SUFFIX,richh.cn
   - DOMAIN-SUFFIX,ridirre.com
+  - DOMAIN-SUFFIX,riemutmh.com
   - DOMAIN-SUFFIX,ringingneo.com
   - DOMAIN-SUFFIX,riscil.com
   - DOMAIN-SUFFIX,rivdxb.xyz
@@ -4770,6 +4771,7 @@ payload:
   - DOMAIN-SUFFIX,tiiepofl.xyz
   - DOMAIN-SUFFIX,tjappzvz.xyz
   - DOMAIN-SUFFIX,tjfbh.icu
+  - DOMAIN-SUFFIX,tjimtyi.top
   - DOMAIN-SUFFIX,tjuspyk.icu
   - DOMAIN-SUFFIX,tk.504pk.com
   - DOMAIN-SUFFIX,tkbbjtfp.xyz
@@ -5014,6 +5016,7 @@ payload:
   - DOMAIN-SUFFIX,uiszwh.icu
   - DOMAIN-SUFFIX,uiuaey.xyz
   - DOMAIN-SUFFIX,ujappzvz.xyz
+  - DOMAIN-SUFFIX,ujimtyt.top
   - DOMAIN-SUFFIX,ujovcb.cn
   - DOMAIN-SUFFIX,ujrspnbf.xyz
   - DOMAIN-SUFFIX,ukbbjtfp.xyz
@@ -5440,6 +5443,7 @@ payload:
   - DOMAIN-SUFFIX,wswxsk.xyz
   - DOMAIN-SUFFIX,wsyfsg.xyz
   - DOMAIN-SUFFIX,wsyliee.top
+  - DOMAIN-SUFFIX,wt6.icu
   - DOMAIN-SUFFIX,wtroytj33.fun
   - DOMAIN-SUFFIX,wttuuyd.cn
   - DOMAIN-SUFFIX,wtyusie.top
@@ -5642,6 +5646,7 @@ payload:
   - DOMAIN-SUFFIX,xtrkhv.xyz
   - DOMAIN-SUFFIX,xtvrtrya.xyz
   - DOMAIN-SUFFIX,xu27r.com
+  - DOMAIN-SUFFIX,xu6.icu
   - DOMAIN-SUFFIX,xuakn.icu
   - DOMAIN-SUFFIX,xudarl.xyz
   - DOMAIN-SUFFIX,xue.zbyw.cn
