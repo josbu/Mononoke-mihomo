@@ -2,11 +2,11 @@ payload:
   # NAME: Global
   # DOMAIN: 84
   # DOMAIN-KEYWORD: 36
-  # DOMAIN-SUFFIX: 30653
+  # DOMAIN-SUFFIX: 30654
   # IP-CIDR: 112
   # IP-CIDR6: 4
   # PROCESS-NAME: 1
-  # TOTAL: 30890
+  # TOTAL: 30891
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
   - DOMAIN,anime-rule34-world.b-cdn.net
@@ -20171,6 +20171,7 @@ payload:
   - DOMAIN-SUFFIX,soolakhi.com
   - DOMAIN-SUFFIX,soooyinfor.lol
   - DOMAIN-SUFFIX,soporn.com
+  - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,sora6.com
   - DOMAIN-SUFFIX,sorairi.info
   - DOMAIN-SUFFIX,sorcerersarena.com
