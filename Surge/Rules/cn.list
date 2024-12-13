@@ -1,3 +1,6 @@
+# 规则名称: cn
+# 规则统计: 16
+
 # China Apps
 USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*

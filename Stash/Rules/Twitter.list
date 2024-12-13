@@ -1,3 +1,6 @@
+# 规则名称: Twitter
+# 规则统计: 34
+
 ## > Twitter
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com

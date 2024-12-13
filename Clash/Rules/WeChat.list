@@ -1,3 +1,6 @@
+# 规则名称: WeChat
+# 规则统计: 23
+
 #USER-AGENT,MicroMessenger*
 #USER-AGENT,WeChat*
 DOMAIN-SUFFIX,qlogo.cn
