@@ -223,9 +223,12 @@ jobs:
           filename=$(basename "$file")
           for dir in Clash Stash Surge; do
             cp "$file" "Mononoke-repo/$dir/Rules/$filename"
-            echo "$file not found."
-          fi
+          done
+          # 复制到Egern文件夹, 并将后缀改为.yaml
+          cp "$file" "Tool-repo/Egern/Rules/${filename%.*}.yaml"
         done
+        echo "Files copied successfully."
+
 
     - name: Clash
       run: |
