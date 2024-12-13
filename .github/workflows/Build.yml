@@ -223,8 +223,9 @@ jobs:
           filename=$(basename "$file")
           for dir in Clash Stash Surge; do
             cp "$file" "Mononoke-repo/$dir/Rules/$filename"
-          done
-        echo "Files copied successfully."
+            echo "$file not found."
+          fi
+        done
 
     - name: Clash
       run: |
