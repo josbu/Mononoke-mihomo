@@ -225,7 +225,7 @@ jobs:
             cp "$file" "Mononoke-repo/$dir/Rules/$filename"
           done
           # 复制到Egern文件夹, 并将后缀改为.yaml
-          cp "$file" "Tool-repo/Egern/Rules/${filename%.*}.yaml"
+          cp "$file" "Mononoke-repo/Egern/Rules/${filename%.*}.yaml"
         done
         echo "Files copied successfully."
 
